@@ -104,7 +104,7 @@
             "last_commit": "2026-08-11T09:11:20Z",
             "owner": "olofk",
             "repo": "fusesoc",
-            "stars": 1449
+            "stars": 1450
           }
         },
         {
@@ -118,7 +118,7 @@
             "last_commit": "2026-08-11T09:11:20Z",
             "owner": "olofk",
             "repo": "fusesoc",
-            "stars": 1449
+            "stars": 1450
           }
         }
       ],
@@ -177,7 +177,7 @@
             "last_commit": "2026-08-14T12:49:25Z",
             "owner": "cocotb",
             "repo": "cocotb",
-            "stars": 2470
+            "stars": 2471
           }
         },
         {
@@ -191,7 +191,7 @@
             "last_commit": "2026-08-14T12:49:25Z",
             "owner": "cocotb",
             "repo": "cocotb",
-            "stars": 2470
+            "stars": 2471
           }
         }
       ],
@@ -696,7 +696,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T16:04:22.708Z",
+    "last_updated": "2026-08-15T15:33:35.847Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
     "enhanced_repository": "enhansome/enhansome-open-hardware-verification",
