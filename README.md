@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,672 | 🐛 563 | 🌐 C++ | 📅 2026-08-14 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,678 | 🐛 563 | 🌐 C++ | 📅 2026-08-15 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -175,7 +175,7 @@ Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,593 | 🐛 187 | 🌐 C++ | 📅 2026-08-11
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,595 | 🐛 188 | 🌐 C++ | 📅 2026-08-16
 
 ### LibreCores CI
 
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 472 | 🐛 47 | 🌐 C++ | 📅 2026-08-14
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 472 | 🐛 47 | 🌐 C++ | 📅 2026-08-16
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 466 | 🐛 24 | 🌐 Ruby | 📅 2026-07-16
+* Link: <https://github.com/rggen/rggen> ⭐ 467 | 🐛 23 | 🌐 Ruby | 📅 2026-08-16
 * License: MIT
 * Written in: Ruby
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 114 | 🐛 143 | 🌐 C++ | 📅 2026-08-13
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 114 | 🐛 143 | 🌐 C++ | 📅 2026-08-15
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 114 | 🐛 143 | 🌐 C++ | 📅 2026-08-13
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 114 | 🐛 143 | 🌐 C++ | 📅 2026-08-15
 * Written in: C++.
 
 **CBMC:**
@@ -397,7 +397,7 @@ Listed here are various cocotb plugins for common interfaces or modules:
 
 | Interface / Module                                                                                     | Author                                                       | License |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 347 \| 🐛 63 \| 🌐 Python \| 📅 2026-08-15 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 350 \| 🐛 63 \| 🌐 Python \| 📅 2026-08-15 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 81 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-15  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 209 \| 🐛 15 \| 🌐 Python \| 📅 2025-09-08   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 
@@ -515,7 +515,7 @@ to re-use with the current set of FOSS simulators. It is still a good example of
 
 Last commit in 2013, so likely un-maintained.
 
-* Link: <https://github.com/funningboy/uvm_axi> ⭐ 273 | 🐛 4 | 🌐 Verilog | 📅 2013-06-23
+* Link: <https://github.com/funningboy/uvm_axi> ⭐ 274 | 🐛 4 | 🌐 Verilog | 📅 2013-06-23
 * Written in: System Verilog
 * Write Testbenches In: System Verilog
 * License: GNU Lesser General Public License
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,657 | 🐛 70 | 🌐 SystemVerilog | 📅 2026-08-05
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,658 | 🐛 70 | 🌐 SystemVerilog | 📅 2026-08-05
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -621,8 +621,8 @@ efforts for their open source RISC-V CPUs. It's a good place
 to look at how a large verification project is planned and
 organised.
 
-* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 709 | 🐛 157 | 🌐 Assembly | 📅 2026-08-13
-* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 709 | 🐛 157 | 🌐 Assembly | 📅 2026-08-13
+* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 710 | 🐛 157 | 🌐 Assembly | 📅 2026-08-13
+* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 710 | 🐛 157 | 🌐 Assembly | 📅 2026-08-13
 * Verification Strategy Document: <https://core-v-docs-verif-strat.readthedocs.io/en/latest/>
 
 ### LowRISC Style Guides
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-15._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-16._
