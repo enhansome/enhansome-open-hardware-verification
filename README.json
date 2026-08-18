@@ -60,7 +60,7 @@
           "repo_info": {
             "archived": false,
             "language": "C++",
-            "last_commit": "2026-08-15T20:25:25Z",
+            "last_commit": "2026-08-18T14:26:50Z",
             "owner": "diffblue",
             "repo": "hw-cbmc",
             "stars": 114
@@ -79,7 +79,7 @@
               "repo_info": {
                 "archived": false,
                 "language": "C++",
-                "last_commit": "2026-08-15T20:25:25Z",
+                "last_commit": "2026-08-18T14:26:50Z",
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114
@@ -104,7 +104,7 @@
             "last_commit": "2026-08-11T09:11:20Z",
             "owner": "olofk",
             "repo": "fusesoc",
-            "stars": 1450
+            "stars": 1451
           }
         },
         {
@@ -118,7 +118,7 @@
             "last_commit": "2026-08-11T09:11:20Z",
             "owner": "olofk",
             "repo": "fusesoc",
-            "stars": 1450
+            "stars": 1451
           }
         }
       ],
@@ -174,7 +174,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T12:49:25Z",
+            "last_commit": "2026-08-18T03:40:00Z",
             "owner": "cocotb",
             "repo": "cocotb",
             "stars": 2471
@@ -188,7 +188,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T12:49:25Z",
+            "last_commit": "2026-08-18T03:40:00Z",
             "owner": "cocotb",
             "repo": "cocotb",
             "stars": 2471
@@ -352,7 +352,7 @@
             "last_commit": "2026-04-22T12:02:19Z",
             "owner": "UVVM",
             "repo": "UVVM",
-            "stars": 457
+            "stars": 458
           }
         },
         {
@@ -366,7 +366,7 @@
             "last_commit": "2026-04-22T12:02:19Z",
             "owner": "UVVM",
             "repo": "UVVM",
-            "stars": 457
+            "stars": 458
           }
         },
         {
@@ -380,7 +380,7 @@
             "last_commit": "2026-04-22T12:02:19Z",
             "owner": "UVVM",
             "repo": "UVVM",
-            "stars": 457
+            "stars": 458
           }
         }
       ],
@@ -555,7 +555,7 @@
           "repo_info": {
             "archived": false,
             "language": "Dart",
-            "last_commit": "2026-08-10T23:28:07Z",
+            "last_commit": "2026-08-17T20:22:13Z",
             "owner": "intel",
             "repo": "rohd",
             "stars": 489
@@ -569,7 +569,7 @@
           "repo_info": {
             "archived": false,
             "language": "Dart",
-            "last_commit": "2026-08-10T23:28:07Z",
+            "last_commit": "2026-08-17T20:22:13Z",
             "owner": "intel",
             "repo": "rohd",
             "stars": 489
@@ -635,7 +635,7 @@
             "last_commit": "2026-08-13T11:46:24Z",
             "owner": "openhwgroup",
             "repo": "core-v-verif",
-            "stars": 710
+            "stars": 711
           }
         },
         {
@@ -649,7 +649,7 @@
             "last_commit": "2026-08-13T11:46:24Z",
             "owner": "openhwgroup",
             "repo": "core-v-verif",
-            "stars": 710
+            "stars": 711
           }
         }
       ],
@@ -669,7 +669,7 @@
             "last_commit": "2026-07-08T10:26:39Z",
             "owner": "lowRISC",
             "repo": "style-guides",
-            "stars": 528
+            "stars": 527
           }
         },
         {
@@ -683,7 +683,7 @@
             "last_commit": "2026-07-08T10:26:39Z",
             "owner": "lowRISC",
             "repo": "style-guides",
-            "stars": 528
+            "stars": 527
           }
         }
       ],
@@ -696,7 +696,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-16T15:34:04.362Z",
+    "last_updated": "2026-08-18T15:44:39.815Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
     "enhanced_repository": "enhansome/enhansome-open-hardware-verification",
