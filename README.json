@@ -57,7 +57,7 @@
                 "archived": false,
                 "id": 89927379,
                 "language": "C++",
-                "last_commit": "2026-08-19T10:06:07Z",
+                "last_commit": "2026-08-19T13:24:34Z",
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114
@@ -77,7 +77,7 @@
                     "archived": false,
                     "id": 89927379,
                     "language": "C++",
-                    "last_commit": "2026-08-19T10:06:07Z",
+                    "last_commit": "2026-08-19T13:24:34Z",
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 114
@@ -804,7 +804,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:44:23.661Z",
+    "last_updated": "2026-08-19T15:44:19.401Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",

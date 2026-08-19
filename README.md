@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 114 | 🐛 146 | 🌐 C++ | 📅 2026-08-19
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 114 | 🐛 147 | 🌐 C++ | 📅 2026-08-19
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 114 | 🐛 146 | 🌐 C++ | 📅 2026-08-19
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 114 | 🐛 147 | 🌐 C++ | 📅 2026-08-19
 * Written in: C++.
 
 **CBMC:**
