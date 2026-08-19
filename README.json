@@ -1,703 +1,812 @@
 {
   "items": [
     {
-      "description": "This list has grown a lot lately, and the original taxonomy of tools/frameworks I had is starting to break down. I'll probably switch to a proper website when I get the time to remember how Github Pages works.",
-      "items": [],
-      "title": "Contents"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Tools"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Tools:"
-    },
-    {
-      "description": "\"mcy is a new tool to help digital designers and project managers understand and improve testbench coverage. [...] Given a self checking testbench, mcy generates 1000s of mutations by modifying individual signals in a post synthesis netlist. These mutations are then filtered using Formal Verification techniques, keeping only those that can cause an important change in the design’s output. All mutated designs are run against the testbench to check that the testbench will detect and fail for a relevant mutation. The testbench can then be improved to get 100% complete coverage.\"",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "License: ISC",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-05T07:28:07Z",
-            "owner": "YosysHQ",
-            "repo": "mcy",
-            "stars": 97
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/YosysHQ/mcy",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-05T07:28:07Z",
-            "owner": "YosysHQ",
-            "repo": "mcy",
-            "stars": 97
-          }
-        }
-      ],
-      "title": "MCY"
-    },
-    {
-      "description": "EBMC:\n\"EBMC is a Model Checker for hardware designs. It includes both bounded and unbounded analysis, i.e., it can both discover bugs and is also able to prove the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System Verilog and SMV files. Properties can be given in LTL or a fragment of System Verilog Assertions.\"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Licence: https://github.com/diffblue/hw-cbmc/blob/main/LICENSE",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2026-08-18T14:26:50Z",
-            "owner": "diffblue",
-            "repo": "hw-cbmc",
-            "stars": 114
-          }
-        },
-        {
-          "node_type": "group",
-          "title": "Link: http://www.cprover.org/ebmc/",
-          "description": null,
           "children": [
             {
               "node_type": "item",
-              "title": "Source: https://github.com/diffblue/hw-cbmc",
+              "title": "License: ISC",
               "description": null,
               "children": [],
               "repo_info": {
                 "archived": false,
+                "id": 185404842,
                 "language": "C++",
-                "last_commit": "2026-08-18T14:26:50Z",
+                "last_commit": "2026-08-05T07:28:07Z",
+                "owner": "YosysHQ",
+                "repo": "mcy",
+                "stars": 97
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/YosysHQ/mcy",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 185404842,
+                "language": "C++",
+                "last_commit": "2026-08-05T07:28:07Z",
+                "owner": "YosysHQ",
+                "repo": "mcy",
+                "stars": 97
+              }
+            }
+          ],
+          "description": "\"mcy is a new tool to help digital designers and project managers understand and improve testbench coverage. [...] Given a self checking testbench, mcy generates 1000s of mutations by modifying individual signals in a post synthesis netlist. These mutations are then filtered using Formal Verification techniques, keeping only those that can cause an important change in the design’s output. All mutated designs are run against the testbench to check that the testbench will detect and fail for a relevant mutation. The testbench can then be improved to get 100% complete coverage.\"",
+          "node_type": "group",
+          "title": "MCY"
+        }
+      ],
+      "title": "Tools:"
+    },
+    {
+      "description": "Similar to AAPG, but this time from Google/ CHIPS Alliance. Generates randomised RISC-V programs which can then be run by the DUT and A GRM and checked for equivilence. It has knowledge of interesting features like page tables, CSR access and trap/interrupt handling. Can generate randomised instruction streams with features like loops and function calls etc.\nThis project cannot be used with current free open source HDL simulators since it relies on the object orientated parts of UVM. It is still a useful piece of Verification IP though, and serves as a guide for other similar projects. The project also has a Python generator, which, while less capable as of the time of this writing, can be run with FOSS HDL simulators.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Licence: https://github.com/diffblue/hw-cbmc/blob/main/LICENSE",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 89927379,
+                "language": "C++",
+                "last_commit": "2026-08-19T10:06:07Z",
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114
               }
+            },
+            {
+              "node_type": "group",
+              "title": "Link: http://www.cprover.org/ebmc/",
+              "description": null,
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Source: https://github.com/diffblue/hw-cbmc",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 89927379,
+                    "language": "C++",
+                    "last_commit": "2026-08-19T10:06:07Z",
+                    "owner": "diffblue",
+                    "repo": "hw-cbmc",
+                    "stars": 114
+                  }
+                }
+              ]
+            },
+            {
+              "node_type": "item",
+              "title": "Licence: https://github.com/diffblue/cbmc/blob/develop/LICENSE",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 51877056,
+                "language": "C++",
+                "last_commit": "2026-08-17T11:55:44Z",
+                "owner": "diffblue",
+                "repo": "cbmc",
+                "stars": 1102
+              }
+            },
+            {
+              "node_type": "group",
+              "title": "Link: http://www.cprover.org/cbmc/",
+              "description": null,
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Source: https://github.com/diffblue/cbmc",
+                  "description": null,
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 51877056,
+                    "language": "C++",
+                    "last_commit": "2026-08-17T11:55:44Z",
+                    "owner": "diffblue",
+                    "repo": "cbmc",
+                    "stars": 1102
+                  }
+                }
+              ]
             }
-          ]
-        }
-      ],
-      "title": "EBMC / CBMC"
-    },
-    {
-      "description": "From the project README: FuseSoC is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code. Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.\nMy Opinion: If you need a tool to manage you HDL or testbench dependencies, package your IP for easy sharing, or generally just make your hardware design and verification life easier, FuseSoC is a great place to start.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/olofk/fusesoc",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-11T09:11:20Z",
-            "owner": "olofk",
-            "repo": "fusesoc",
-            "stars": 1451
-          }
+          ],
+          "description": "EBMC:\n\"EBMC is a Model Checker for hardware designs. It includes both bounded and unbounded analysis, i.e., it can both discover bugs and is also able to prove the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System Verilog and SMV files. Properties can be given in LTL or a fragment of System Verilog Assertions.\"\nCBMC:\n\"CBMC is a Bounded Model Checker for C and C++ programs.\"\n\"Furthermore, it can check C and C++ for consistency with other languages, such as Verilog. The verification is performed by unwinding the loops in the program and passing the resulting equation to a decision procedure.\"",
+          "node_type": "group",
+          "title": "EBMC / CBMC"
         },
         {
-          "node_type": "item",
-          "title": "License: BSD-2-Clause",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-11T09:11:20Z",
-            "owner": "olofk",
-            "repo": "fusesoc",
-            "stars": 1451
-          }
-        }
-      ],
-      "title": "FuseSoC"
-    },
-    {
-      "description": "\"This is another RISC-V ISA simulator, this is coded in SystemC + TLM-2. It supports RV32IMAC Instruction set by now.\"\nDetails:",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/mariusmm/RISC-V-TLM",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-02-20T15:37:47Z",
-            "owner": "mariusmm",
-            "repo": "RISC-V-TLM",
-            "stars": 360
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/olofk/fusesoc",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16964283,
+                "language": "Python",
+                "last_commit": "2026-08-11T09:11:20Z",
+                "owner": "olofk",
+                "repo": "fusesoc",
+                "stars": 1451
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "License: BSD-2-Clause",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16964283,
+                "language": "Python",
+                "last_commit": "2026-08-11T09:11:20Z",
+                "owner": "olofk",
+                "repo": "fusesoc",
+                "stars": 1451
+              }
+            }
+          ],
+          "description": "From the project README: FuseSoC is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code. Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.\nMy Opinion: If you need a tool to manage you HDL or testbench dependencies, package your IP for easy sharing, or generally just make your hardware design and verification life easier, FuseSoC is a great place to start.",
+          "node_type": "group",
+          "title": "FuseSoC"
         },
         {
-          "node_type": "item",
-          "title": "License: GPL-3.0",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C",
-            "last_commit": "2026-02-20T15:37:47Z",
-            "owner": "mariusmm",
-            "repo": "RISC-V-TLM",
-            "stars": 360
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/openhwgroup/force-riscv",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 271641901,
+                "language": "C++",
+                "last_commit": "2023-10-17T10:28:18Z",
+                "owner": "openhwgroup",
+                "repo": "force-riscv",
+                "stars": 312
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "License: Apache-2.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 271641901,
+                "language": "C++",
+                "last_commit": "2023-10-17T10:28:18Z",
+                "owner": "openhwgroup",
+                "repo": "force-riscv",
+                "stars": 312
+              }
+            }
+          ],
+          "description": "\"FORCE-RISCV is an instruction sequence generator (ISG) for the RISC-V instruction set architecture. It can be used to generate tests for design verification of RISC-V processors. FORCE-RISCV uses randomization to choose instructions, registers, addresses and data for the tests, and can generate valid test sequences with very little input from the user. However, FORCE-RISCV provides a set of APIs with extensive capabilities which gives the user a high level of control over how the instruction generation takes place.\"\nThis makes it similar to riscv-dv, but you don't need a SystemVerilog simulator to run it. It is maintained by the OpenHW Group\nFeature set:\nDetails:",
+          "node_type": "group",
+          "title": "FORCE-RISCV"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/mariusmm/RISC-V-TLM",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 148187358,
+                "language": "C",
+                "last_commit": "2026-02-20T15:37:47Z",
+                "owner": "mariusmm",
+                "repo": "RISC-V-TLM",
+                "stars": 360
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "License: GPL-3.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 148187358,
+                "language": "C",
+                "last_commit": "2026-02-20T15:37:47Z",
+                "owner": "mariusmm",
+                "repo": "RISC-V-TLM",
+                "stars": 360
+              }
+            }
+          ],
+          "description": "\"This is another RISC-V ISA simulator, this is coded in SystemC + TLM-2. It supports RV32IMAC Instruction set by now.\"\nDetails:",
+          "node_type": "group",
+          "title": "RISC-V-TLM"
         }
       ],
-      "title": "RISC-V-TLM"
+      "title": "riscv-dv"
     },
     {
-      "description": "",
-      "items": [],
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Licence: Revised BSD License",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10651005,
+                "language": "Python",
+                "last_commit": "2026-08-18T03:40:00Z",
+                "owner": "cocotb",
+                "repo": "cocotb",
+                "stars": 2473
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/cocotb/cocotb",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10651005,
+                "language": "Python",
+                "last_commit": "2026-08-18T03:40:00Z",
+                "owner": "cocotb",
+                "repo": "cocotb",
+                "stars": 2473
+              }
+            }
+          ],
+          "description": "\"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python.\"",
+          "node_type": "group",
+          "title": "Cocotb"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: Apache-2.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 232838902,
+                "language": "Python",
+                "last_commit": "2025-02-09T13:29:34Z",
+                "owner": "tpoikela",
+                "repo": "uvm-python",
+                "stars": 262
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/tpoikela/uvm-python",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 232838902,
+                "language": "Python",
+                "last_commit": "2025-02-09T13:29:34Z",
+                "owner": "tpoikela",
+                "repo": "uvm-python",
+                "stars": 262
+              }
+            }
+          ],
+          "description": "\"This is a port of SystemVerilog (SV) Universal Verification Methodology (UVM) 1.2 to Python and cocotb. [...] UVM is not currently supported by any open source/free tools. cocotb offers excellent solution to interact with any simulator (free/commercial), so testbenches can be written in Python as well. uvm-python tries to offer an API similar to the original SV version. This means that many UVM verificaton skills are transferable from SV to Python very easily.\"",
+          "node_type": "group",
+          "title": "python-uvm"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: BSD-2-Clause",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159490350,
+                "language": "Python",
+                "last_commit": "2025-10-03T13:59:51Z",
+                "owner": "mciepluc",
+                "repo": "cocotb-coverage",
+                "stars": 127
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/mciepluc/cocotb-coverage",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 159490350,
+                "language": "Python",
+                "last_commit": "2025-10-03T13:59:51Z",
+                "owner": "mciepluc",
+                "repo": "cocotb-coverage",
+                "stars": 127
+              }
+            }
+          ],
+          "description": "Functional Coverage and Constrained Randomization Extensions for Cocotb.\nThis package allows you to use constrained randomization and functional coverage techniques known from CRV (constrained random verification) and MDV (metric-driven verification) methodologies, available in SystemVerilog or e. Such extensions enable the implementation of an advanced verification environment for complex projects.\nThere is also a DVCon'17 presentation.",
+          "node_type": "group",
+          "title": "Cocotb Coverage"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: Apache-2.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 198527127,
+                "language": "Python",
+                "last_commit": "2026-07-05T21:24:16Z",
+                "owner": "fvutils",
+                "repo": "pyvsc",
+                "stars": 148
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/fvutils/pyvsc",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 198527127,
+                "language": "Python",
+                "last_commit": "2026-07-05T21:24:16Z",
+                "owner": "fvutils",
+                "repo": "pyvsc",
+                "stars": 148
+              }
+            }
+          ],
+          "description": "\"PyVSC is a Python library that implements random verification-stimulus generation and coverage collection. [...] Currently, the Python-embedded domain-specific language supports similar features to those supported by SystemVerilog. Not all SystemVerilog features are supported, but in some cases features not supported by SystemVerilog are also supported. Please see the following section PyVSC Features\"",
+          "node_type": "group",
+          "title": "fvutils/pyvsc"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: ISC",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74998636,
+                "language": "Verilog",
+                "last_commit": "2022-04-06T01:24:21Z",
+                "owner": "SymbioticEDA",
+                "repo": "riscv-formal",
+                "stars": 633
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/SymbioticEDA/riscv-formal",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 74998636,
+                "language": "Verilog",
+                "last_commit": "2022-04-06T01:24:21Z",
+                "owner": "SymbioticEDA",
+                "repo": "riscv-formal",
+                "stars": 633
+              }
+            }
+          ],
+          "description": "A re-usable formal verification framework for RISC-V CPU designs. Uses the Yosys/SymbiYosys tools.",
+          "node_type": "group",
+          "title": "riscv-formal"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: MIT",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 50093478,
+                "language": "VHDL",
+                "last_commit": "2026-04-22T12:02:19Z",
+                "owner": "UVVM",
+                "repo": "UVVM",
+                "stars": 458
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Supports: a bunch of stuff",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 50093478,
+                "language": "VHDL",
+                "last_commit": "2026-04-22T12:02:19Z",
+                "owner": "UVVM",
+                "repo": "UVVM",
+                "stars": 458
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/UVVM/UVVM",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 50093478,
+                "language": "VHDL",
+                "last_commit": "2026-04-22T12:02:19Z",
+                "owner": "UVVM",
+                "repo": "UVVM",
+                "stars": 458
+              }
+            }
+          ],
+          "description": "\"Open Source VHDL Verification Library and Methodology - for very efficient VHDL verification of FPGA and ASIC - resulting also in a significant quality improvement\"\nThere is also an accompanying library of user contributed VIPs: UVVM_Community_VIPs.",
+          "node_type": "group",
+          "title": "UVVM"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: Apache-2.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 267338934,
+                "language": "Scala",
+                "last_commit": "2024-11-09T16:18:23Z",
+                "owner": "chiselverify",
+                "repo": "chiselverify",
+                "stars": 163
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/chiselverify/chiselverify",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 267338934,
+                "language": "Scala",
+                "last_commit": "2024-11-09T16:18:23Z",
+                "owner": "chiselverify",
+                "repo": "chiselverify",
+                "stars": 163
+              }
+            }
+          ],
+          "description": "From the project README: This repo is for the project to explore the combination and interaction of Chisel and UVM. The ultimate goal is a verification framework within Scala for digital hardware described in Chisel also supporting legacy components in VHDL, Verilog, or SystemVerilog.",
+          "node_type": "group",
+          "title": "Chisel Verify"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AXI4 Full - Manager, Memory, Subordinate",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 125653139,
+                "language": "VHDL",
+                "last_commit": "2026-07-30T17:32:33Z",
+                "owner": "OSVVM",
+                "repo": "AXI4",
+                "stars": 157
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AXI4 Lite - Manager, Memory, Subordinate",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 125653139,
+                "language": "VHDL",
+                "last_commit": "2026-07-30T17:32:33Z",
+                "owner": "OSVVM",
+                "repo": "AXI4",
+                "stars": 157
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AXI4 Stream - Transmitter and Receiver",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 125653139,
+                "language": "VHDL",
+                "last_commit": "2026-07-30T17:32:33Z",
+                "owner": "OSVVM",
+                "repo": "AXI4",
+                "stars": 157
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GitHub: https://github.com/OSVVM/OsvvmLibraries",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 281009137,
+                "language": null,
+                "last_commit": "2026-07-30T18:16:51Z",
+                "owner": "OSVVM",
+                "repo": "OsvvmLibraries",
+                "stars": 86
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "UART - Transmitter and Receiver",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 192356536,
+                "language": "VHDL",
+                "last_commit": "2026-06-06T04:58:43Z",
+                "owner": "OSVVM",
+                "repo": "UART",
+                "stars": 15
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DPRAM - Memory Model and Controller",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 465957338,
+                "language": "VHDL",
+                "last_commit": "2026-06-06T04:57:37Z",
+                "owner": "OSVVM",
+                "repo": "DpRam",
+                "stars": 7
+              }
+            }
+          ],
+          "description": "OSVVM is a VHDL verification framework, verification utility library, verification component library, and a simulator independent scripting flow. OSVVM provides VHDL with buzz word verification capabilities including Transaction Level Modeling, Constrained Random, Functional Coverage, Scoreboards, and Error Reporting that are simple to use and feel like built-in language features. The reporting capabilities include HTML outputs for human readability and JUnit based XML for CI/CD tools.\nThe GitHub organisation includes verification components:",
+          "node_type": "group",
+          "title": "OSVVM"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: Non-commercial",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 35536079,
+                "language": "C++",
+                "last_commit": "2022-09-14T04:23:52Z",
+                "owner": "chengyinwu",
+                "repo": "V3",
+                "stars": 17
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/chengyinwu/V3",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 35536079,
+                "language": "C++",
+                "last_commit": "2022-09-14T04:23:52Z",
+                "owner": "chengyinwu",
+                "repo": "V3",
+                "stars": 17
+              }
+            }
+          ],
+          "description": "\"V3 is a new and extensible framework for hardware verification and debugging researches on both Boolean-level and word-level designs. It is a powerful tool for users and an elaborate framework for developers as well.\"\nAcademic project, looks unmaintained since 2014.",
+          "node_type": "group",
+          "title": "V3"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Write Testbenches In: Dart with ROHD",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 409325108,
+                "language": "Dart",
+                "last_commit": "2026-08-17T20:22:13Z",
+                "owner": "intel",
+                "repo": "rohd",
+                "stars": 489
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of ROHD",
+              "description": "including a fast event-based simulator",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 409325108,
+                "language": "Dart",
+                "last_commit": "2026-08-17T20:22:13Z",
+                "owner": "intel",
+                "repo": "rohd",
+                "stars": 489
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "License: BSD-3-Clause",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 426054568,
+                "language": "Dart",
+                "last_commit": "2026-07-13T17:56:17Z",
+                "owner": "intel",
+                "repo": "rohd-vf",
+                "stars": 48
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/intel/rohd-vf",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 426054568,
+                "language": "Dart",
+                "last_commit": "2026-07-13T17:56:17Z",
+                "owner": "intel",
+                "repo": "rohd-vf",
+                "stars": 48
+              }
+            }
+          ],
+          "description": "\"The ROHD Verification Framework (ROHD-VF) is a verification framework built upon the Rapid Open Hardware Development (ROHD) framework. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. \"",
+          "node_type": "group",
+          "title": "ROHD Verification Framework"
+        }
+      ],
       "title": "Frameworks:"
     },
     {
-      "description": "\"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python.\"",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "Licence: Revised BSD License",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T03:40:00Z",
-            "owner": "cocotb",
-            "repo": "cocotb",
-            "stars": 2471
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Github Link: https://github.com/openhwgroup/core-v-verif",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 224885491,
+                "language": "Assembly",
+                "last_commit": "2026-08-13T11:46:24Z",
+                "owner": "openhwgroup",
+                "repo": "core-v-verif",
+                "stars": 711
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "License: Solderpad V2",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 224885491,
+                "language": "Assembly",
+                "last_commit": "2026-08-13T11:46:24Z",
+                "owner": "openhwgroup",
+                "repo": "core-v-verif",
+                "stars": 711
+              }
+            }
+          ],
+          "description": "The OpenHW group are a not-for-profit focused on \"development of open-source cores, related IP, tools and software.\"\nThis particular repository contains their functional verification efforts for their open source RISC-V CPUs. It's a good place to look at how a large verification project is planned and organised.",
+          "node_type": "group",
+          "title": "OpenHW Group Functional Verification"
         },
         {
-          "node_type": "item",
-          "title": "Link: https://github.com/cocotb/cocotb",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T03:40:00Z",
-            "owner": "cocotb",
-            "repo": "cocotb",
-            "stars": 2471
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: CC-BY-4.0",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 191744265,
+                "language": null,
+                "last_commit": "2026-07-08T10:26:39Z",
+                "owner": "lowRISC",
+                "repo": "style-guides",
+                "stars": 527
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/lowRISC/style-guides",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 191744265,
+                "language": null,
+                "last_commit": "2026-07-08T10:26:39Z",
+                "owner": "lowRISC",
+                "repo": "style-guides",
+                "stars": 527
+              }
+            }
+          ],
+          "description": "These are the style guides used by the LowRISC project for writing both RTL and UVM based testbenches.",
+          "node_type": "group",
+          "title": "LowRISC Style Guides"
         }
       ],
-      "title": "Cocotb"
-    },
-    {
-      "description": "\"This is a port of SystemVerilog (SV) Universal Verification Methodology (UVM) 1.2 to Python and cocotb. [...] UVM is not currently supported by any open source/free tools. cocotb offers excellent solution to interact with any simulator (free/commercial), so testbenches can be written in Python as well. uvm-python tries to offer an API similar to the original SV version. This means that many UVM verificaton skills are transferable from SV to Python very easily.\"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: Apache-2.0",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-02-09T13:29:34Z",
-            "owner": "tpoikela",
-            "repo": "uvm-python",
-            "stars": 262
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/tpoikela/uvm-python",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-02-09T13:29:34Z",
-            "owner": "tpoikela",
-            "repo": "uvm-python",
-            "stars": 262
-          }
-        }
-      ],
-      "title": "python-uvm"
-    },
-    {
-      "description": "Functional Coverage and Constrained Randomization Extensions for Cocotb.\nThis package allows you to use constrained randomization and functional coverage techniques known from CRV (constrained random verification) and MDV (metric-driven verification) methodologies, available in SystemVerilog or e. Such extensions enable the implementation of an advanced verification environment for complex projects.\nThere is also a DVCon'17 presentation.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: BSD-2-Clause",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-10-03T13:59:51Z",
-            "owner": "mciepluc",
-            "repo": "cocotb-coverage",
-            "stars": 127
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/mciepluc/cocotb-coverage",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-10-03T13:59:51Z",
-            "owner": "mciepluc",
-            "repo": "cocotb-coverage",
-            "stars": 127
-          }
-        }
-      ],
-      "title": "Cocotb Coverage"
-    },
-    {
-      "description": "Listed here are various cocotb plugins for common interfaces or modules:",
-      "items": [],
-      "title": "Cocotb IPs"
-    },
-    {
-      "description": "\"PyVSC is a Python library that implements random verification-stimulus generation and coverage collection. [...] Currently, the Python-embedded domain-specific language supports similar features to those supported by SystemVerilog. Not all SystemVerilog features are supported, but in some cases features not supported by SystemVerilog are also supported. Please see the following section PyVSC Features\"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: Apache-2.0",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-05T21:24:16Z",
-            "owner": "fvutils",
-            "repo": "pyvsc",
-            "stars": 148
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/fvutils/pyvsc",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-07-05T21:24:16Z",
-            "owner": "fvutils",
-            "repo": "pyvsc",
-            "stars": 148
-          }
-        }
-      ],
-      "title": "fvutils/pyvsc"
-    },
-    {
-      "description": "A re-usable formal verification framework for RISC-V CPU designs. Uses the Yosys/SymbiYosys tools.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: ISC",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Verilog",
-            "last_commit": "2022-04-06T01:24:21Z",
-            "owner": "SymbioticEDA",
-            "repo": "riscv-formal",
-            "stars": 633
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/SymbioticEDA/riscv-formal",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Verilog",
-            "last_commit": "2022-04-06T01:24:21Z",
-            "owner": "SymbioticEDA",
-            "repo": "riscv-formal",
-            "stars": 633
-          }
-        }
-      ],
-      "title": "riscv-formal"
-    },
-    {
-      "description": "\"Open Source VHDL Verification Library and Methodology - for very efficient VHDL verification of FPGA and ASIC - resulting also in a significant quality improvement\"\nThere is also an accompanying library of user contributed VIPs: UVVM_Community_VIPs.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: MIT",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-04-22T12:02:19Z",
-            "owner": "UVVM",
-            "repo": "UVVM",
-            "stars": 458
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Supports: a bunch of stuff",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-04-22T12:02:19Z",
-            "owner": "UVVM",
-            "repo": "UVVM",
-            "stars": 458
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/UVVM/UVVM",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-04-22T12:02:19Z",
-            "owner": "UVVM",
-            "repo": "UVVM",
-            "stars": 458
-          }
-        }
-      ],
-      "title": "UVVM"
-    },
-    {
-      "description": "From the project README: This repo is for the project to explore the combination and interaction of Chisel and UVM. The ultimate goal is a verification framework within Scala for digital hardware described in Chisel also supporting legacy components in VHDL, Verilog, or SystemVerilog.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: Apache-2.0",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Scala",
-            "last_commit": "2024-11-09T16:18:23Z",
-            "owner": "chiselverify",
-            "repo": "chiselverify",
-            "stars": 163
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/chiselverify/chiselverify",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Scala",
-            "last_commit": "2024-11-09T16:18:23Z",
-            "owner": "chiselverify",
-            "repo": "chiselverify",
-            "stars": 163
-          }
-        }
-      ],
-      "title": "Chisel Verify"
-    },
-    {
-      "description": "OSVVM is a VHDL verification framework, verification utility library, verification component library, and a simulator independent scripting flow. OSVVM provides VHDL with buzz word verification capabilities including Transaction Level Modeling, Constrained Random, Functional Coverage, Scoreboards, and Error Reporting that are simple to use and feel like built-in language features. The reporting capabilities include HTML outputs for human readability and JUnit based XML for CI/CD tools.\nThe GitHub organisation includes verification components:",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "AXI4 Full - Manager, Memory, Subordinate",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-07-30T17:32:33Z",
-            "owner": "OSVVM",
-            "repo": "AXI4",
-            "stars": 157
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AXI4 Lite - Manager, Memory, Subordinate",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-07-30T17:32:33Z",
-            "owner": "OSVVM",
-            "repo": "AXI4",
-            "stars": 157
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AXI4 Stream - Transmitter and Receiver",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-07-30T17:32:33Z",
-            "owner": "OSVVM",
-            "repo": "AXI4",
-            "stars": 157
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GitHub: https://github.com/OSVVM/OsvvmLibraries",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-07-30T18:16:51Z",
-            "owner": "OSVVM",
-            "repo": "OsvvmLibraries",
-            "stars": 86
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "UART - Transmitter and Receiver",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-06-06T04:58:43Z",
-            "owner": "OSVVM",
-            "repo": "UART",
-            "stars": 15
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "DPRAM - Memory Model and Controller",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "VHDL",
-            "last_commit": "2026-06-06T04:57:37Z",
-            "owner": "OSVVM",
-            "repo": "DpRam",
-            "stars": 7
-          }
-        }
-      ],
-      "title": "OSVVM"
-    },
-    {
-      "description": "\"V3 is a new and extensible framework for hardware verification and debugging researches on both Boolean-level and word-level designs. It is a powerful tool for users and an elaborate framework for developers as well.\"\nAcademic project, looks unmaintained since 2014.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: Non-commercial",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2022-09-14T04:23:52Z",
-            "owner": "chengyinwu",
-            "repo": "V3",
-            "stars": 17
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/chengyinwu/V3",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2022-09-14T04:23:52Z",
-            "owner": "chengyinwu",
-            "repo": "V3",
-            "stars": 17
-          }
-        }
-      ],
-      "title": "V3"
-    },
-    {
-      "description": "\"The ROHD Verification Framework (ROHD-VF) is a verification framework built upon the Rapid Open Hardware Development (ROHD) framework. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. \"",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Write Testbenches In: Dart with ROHD",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Dart",
-            "last_commit": "2026-08-17T20:22:13Z",
-            "owner": "intel",
-            "repo": "rohd",
-            "stars": 489
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of ROHD",
-          "description": "including a fast event-based simulator",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Dart",
-            "last_commit": "2026-08-17T20:22:13Z",
-            "owner": "intel",
-            "repo": "rohd",
-            "stars": 489
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "License: BSD-3-Clause",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Dart",
-            "last_commit": "2026-07-13T17:56:17Z",
-            "owner": "intel",
-            "repo": "rohd-vf",
-            "stars": 48
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/intel/rohd-vf",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Dart",
-            "last_commit": "2026-07-13T17:56:17Z",
-            "owner": "intel",
-            "repo": "rohd-vf",
-            "stars": 48
-          }
-        }
-      ],
-      "title": "ROHD Verification Framework"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Components / VIPs"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Guides:"
-    },
-    {
-      "description": "",
-      "items": [],
       "title": "Projects"
-    },
-    {
-      "description": "The OpenHW group are a not-for-profit focused on \"development of open-source cores, related IP, tools and software.\"\nThis particular repository contains their functional verification efforts for their open source RISC-V CPUs. It's a good place to look at how a large verification project is planned and organised.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "Github Link: https://github.com/openhwgroup/core-v-verif",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Assembly",
-            "last_commit": "2026-08-13T11:46:24Z",
-            "owner": "openhwgroup",
-            "repo": "core-v-verif",
-            "stars": 711
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "License: Solderpad V2",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Assembly",
-            "last_commit": "2026-08-13T11:46:24Z",
-            "owner": "openhwgroup",
-            "repo": "core-v-verif",
-            "stars": 711
-          }
-        }
-      ],
-      "title": "OpenHW Group Functional Verification"
-    },
-    {
-      "description": "These are the style guides used by the LowRISC project for writing both RTL and UVM based testbenches.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "License: CC-BY-4.0",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-07-08T10:26:39Z",
-            "owner": "lowRISC",
-            "repo": "style-guides",
-            "stars": 527
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Link: https://github.com/lowRISC/style-guides",
-          "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-07-08T10:26:39Z",
-            "owner": "lowRISC",
-            "repo": "style-guides",
-            "stars": 527
-          }
-        }
-      ],
-      "title": "LowRISC Style Guides"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Conferences:"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T15:44:39.815Z",
+    "last_updated": "2026-08-19T12:44:23.661Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
+    "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
     "enhanced_repository": "enhansome/enhansome-open-hardware-verification",
     "enhanced_repository_description": null,
