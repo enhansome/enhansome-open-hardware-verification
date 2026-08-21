@@ -57,7 +57,7 @@
                 "archived": false,
                 "id": 89927379,
                 "language": "C++",
-                "last_commit": "2026-08-20T00:52:54Z",
+                "last_commit": "2026-08-21T15:43:47Z",
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114
@@ -77,7 +77,7 @@
                     "archived": false,
                     "id": 89927379,
                     "language": "C++",
-                    "last_commit": "2026-08-20T00:52:54Z",
+                    "last_commit": "2026-08-21T15:43:47Z",
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 114
@@ -94,7 +94,7 @@
                 "archived": false,
                 "id": 51877056,
                 "language": "C++",
-                "last_commit": "2026-08-17T11:55:44Z",
+                "last_commit": "2026-08-21T03:32:14Z",
                 "owner": "diffblue",
                 "repo": "cbmc",
                 "stars": 1103
@@ -114,7 +114,7 @@
                     "archived": false,
                     "id": 51877056,
                     "language": "C++",
-                    "last_commit": "2026-08-17T11:55:44Z",
+                    "last_commit": "2026-08-21T03:32:14Z",
                     "owner": "diffblue",
                     "repo": "cbmc",
                     "stars": 1103
@@ -138,10 +138,10 @@
                 "archived": false,
                 "id": 16964283,
                 "language": "Python",
-                "last_commit": "2026-08-11T09:11:20Z",
+                "last_commit": "2026-08-21T14:45:52Z",
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1451
+                "stars": 1452
               }
             },
             {
@@ -153,10 +153,10 @@
                 "archived": false,
                 "id": 16964283,
                 "language": "Python",
-                "last_commit": "2026-08-11T09:11:20Z",
+                "last_commit": "2026-08-21T14:45:52Z",
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1451
+                "stars": 1452
               }
             }
           ],
@@ -258,7 +258,7 @@
                 "last_commit": "2026-08-18T03:40:00Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2474
+                "stars": 2479
               }
             },
             {
@@ -273,7 +273,7 @@
                 "last_commit": "2026-08-18T03:40:00Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2474
+                "stars": 2479
               }
             }
           ],
@@ -529,7 +529,7 @@
                 "archived": false,
                 "id": 125653139,
                 "language": "VHDL",
-                "last_commit": "2026-08-20T05:49:56Z",
+                "last_commit": "2026-08-21T01:54:33Z",
                 "owner": "OSVVM",
                 "repo": "AXI4",
                 "stars": 157
@@ -544,7 +544,7 @@
                 "archived": false,
                 "id": 125653139,
                 "language": "VHDL",
-                "last_commit": "2026-08-20T05:49:56Z",
+                "last_commit": "2026-08-21T01:54:33Z",
                 "owner": "OSVVM",
                 "repo": "AXI4",
                 "stars": 157
@@ -559,7 +559,7 @@
                 "archived": false,
                 "id": 125653139,
                 "language": "VHDL",
-                "last_commit": "2026-08-20T05:49:56Z",
+                "last_commit": "2026-08-21T01:54:33Z",
                 "owner": "OSVVM",
                 "repo": "AXI4",
                 "stars": 157
@@ -574,7 +574,7 @@
                 "archived": false,
                 "id": 281009137,
                 "language": null,
-                "last_commit": "2026-08-20T05:51:04Z",
+                "last_commit": "2026-08-21T01:56:10Z",
                 "owner": "OSVVM",
                 "repo": "OsvvmLibraries",
                 "stars": 86
@@ -666,7 +666,7 @@
                 "last_commit": "2026-08-19T20:37:54Z",
                 "owner": "intel",
                 "repo": "rohd",
-                "stars": 489
+                "stars": 488
               }
             },
             {
@@ -681,7 +681,7 @@
                 "last_commit": "2026-08-19T20:37:54Z",
                 "owner": "intel",
                 "repo": "rohd",
-                "stars": 489
+                "stars": 488
               }
             },
             {
@@ -776,7 +776,7 @@
                 "last_commit": "2026-07-08T10:26:39Z",
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 527
+                "stars": 528
               }
             },
             {
@@ -791,7 +791,7 @@
                 "last_commit": "2026-07-08T10:26:39Z",
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 527
+                "stars": 528
               }
             }
           ],
@@ -804,7 +804,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T15:47:40.227Z",
+    "last_updated": "2026-08-21T15:46:45.021Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
