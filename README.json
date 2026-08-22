@@ -57,7 +57,7 @@
                 "archived": false,
                 "id": 89927379,
                 "language": "C++",
-                "last_commit": "2026-08-21T15:43:47Z",
+                "last_commit": "2026-08-21T18:53:14Z",
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114
@@ -77,7 +77,7 @@
                     "archived": false,
                     "id": 89927379,
                     "language": "C++",
-                    "last_commit": "2026-08-21T15:43:47Z",
+                    "last_commit": "2026-08-21T18:53:14Z",
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 114
@@ -97,7 +97,7 @@
                 "last_commit": "2026-08-21T03:32:14Z",
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1103
+                "stars": 1105
               }
             },
             {
@@ -117,7 +117,7 @@
                     "last_commit": "2026-08-21T03:32:14Z",
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1103
+                    "stars": 1105
                   }
                 }
               ]
@@ -255,10 +255,10 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-18T03:40:00Z",
+                "last_commit": "2026-08-21T22:40:17Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2479
+                "stars": 2480
               }
             },
             {
@@ -270,10 +270,10 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-18T03:40:00Z",
+                "last_commit": "2026-08-21T22:40:17Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2479
+                "stars": 2480
               }
             }
           ],
@@ -406,7 +406,7 @@
                 "last_commit": "2022-04-06T01:24:21Z",
                 "owner": "SymbioticEDA",
                 "repo": "riscv-formal",
-                "stars": 633
+                "stars": 634
               }
             },
             {
@@ -421,7 +421,7 @@
                 "last_commit": "2022-04-06T01:24:21Z",
                 "owner": "SymbioticEDA",
                 "repo": "riscv-formal",
-                "stars": 633
+                "stars": 634
               }
             }
           ],
@@ -443,7 +443,7 @@
                 "last_commit": "2026-04-22T12:02:19Z",
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 458
+                "stars": 460
               }
             },
             {
@@ -458,7 +458,7 @@
                 "last_commit": "2026-04-22T12:02:19Z",
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 458
+                "stars": 460
               }
             },
             {
@@ -473,7 +473,7 @@
                 "last_commit": "2026-04-22T12:02:19Z",
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 458
+                "stars": 460
               }
             }
           ],
@@ -574,7 +574,7 @@
                 "archived": false,
                 "id": 281009137,
                 "language": null,
-                "last_commit": "2026-08-21T01:56:10Z",
+                "last_commit": "2026-08-21T23:27:23Z",
                 "owner": "OSVVM",
                 "repo": "OsvvmLibraries",
                 "stars": 86
@@ -804,7 +804,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-21T15:46:45.021Z",
+    "last_updated": "2026-08-22T15:33:50.769Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
