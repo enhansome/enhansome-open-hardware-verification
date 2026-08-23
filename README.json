@@ -97,7 +97,7 @@
                 "last_commit": "2026-08-21T03:32:14Z",
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1105
+                "stars": 1106
               }
             },
             {
@@ -117,7 +117,7 @@
                     "last_commit": "2026-08-21T03:32:14Z",
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1105
+                    "stars": 1106
                   }
                 }
               ]
@@ -255,10 +255,10 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-21T22:40:17Z",
+                "last_commit": "2026-08-23T04:29:19Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2480
+                "stars": 2483
               }
             },
             {
@@ -270,10 +270,10 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-21T22:40:17Z",
+                "last_commit": "2026-08-23T04:29:19Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2480
+                "stars": 2483
               }
             }
           ],
@@ -739,7 +739,7 @@
                 "last_commit": "2026-08-13T11:46:24Z",
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 711
+                "stars": 713
               }
             },
             {
@@ -754,7 +754,7 @@
                 "last_commit": "2026-08-13T11:46:24Z",
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 711
+                "stars": 713
               }
             }
           ],
@@ -776,7 +776,7 @@
                 "last_commit": "2026-07-08T10:26:39Z",
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 528
+                "stars": 529
               }
             },
             {
@@ -791,7 +791,7 @@
                 "last_commit": "2026-07-08T10:26:39Z",
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 528
+                "stars": 529
               }
             }
           ],
@@ -804,7 +804,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-22T15:33:50.769Z",
+    "last_updated": "2026-08-23T15:35:18.845Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
