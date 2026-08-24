@@ -39,6 +39,28 @@
           "description": "\"mcy is a new tool to help digital designers and project managers understand and improve testbench coverage. [...] Given a self checking testbench, mcy generates 1000s of mutations by modifying individual signals in a post synthesis netlist. These mutations are then filtered using Formal Verification techniques, keeping only those that can cause an important change in the design’s output. All mutated designs are run against the testbench to check that the testbench will detect and fail for a relevant mutation. The testbench can then be improved to get 100% complete coverage.\"",
           "node_type": "group",
           "title": "MCY"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/steveicarus/iverilog",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16267,
+                "language": "C++",
+                "last_commit": "2026-08-23T21:30:59Z",
+                "owner": "steveicarus",
+                "repo": "iverilog",
+                "stars": 3605
+              }
+            }
+          ],
+          "description": "The excellent Icarus Verilog simulator. Slower than Verilator, but it supports full 4-state simulation (i.e. X's and Z's).",
+          "node_type": "group",
+          "title": "Icarus Verilog"
         }
       ],
       "title": "Tools:"
@@ -46,6 +68,131 @@
     {
       "description": "Similar to AAPG, but this time from Google/ CHIPS Alliance. Generates randomised RISC-V programs which can then be run by the DUT and A GRM and checked for equivilence. It has knowledge of interesting features like page tables, CSR access and trap/interrupt handling. Can generate randomised instruction streams with features like loops and function calls etc.\nThis project cannot be used with current free open source HDL simulators since it relies on the object orientated parts of UVM. It is still a useful piece of Verification IP though, and serves as a guide for other similar projects. The project also has a Python generator, which, while less capable as of the time of this writing, can be run with FOSS HDL simulators.",
       "items": [
+        {
+          "node_type": "item",
+          "title": "Link: https://github.com/chipsalliance/riscv-dv",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 167140400,
+            "language": "Python",
+            "last_commit": "2026-04-03T15:17:27Z",
+            "owner": "chipsalliance",
+            "repo": "riscv-dv",
+            "stars": 1347
+          }
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/anders-code/verilog-covered",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 108611886,
+                "language": "C",
+                "last_commit": "2017-10-28T02:23:12Z",
+                "owner": "anders-code",
+                "repo": "verilog-covered",
+                "stars": 9
+              }
+            }
+          ],
+          "description": "\"Covered is a Verilog code coverage analysis tool that can be useful for determining how well a diagnostic test suite is covering the design under test.\" ... \"Covered reads in the Verilog design files and a VCD, LXT or FST formatted dumpfile from a diagnostic run and generates a database file called a Coverage Description Database (CDD) file\" ... \"Once a CDD file is created, the user can use Covered to generate various human-readable coverage reports in an ASCII format or use Covered's GUI to interactively look at coverage results\".",
+          "node_type": "group",
+          "title": "covered"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/dalance/svlint",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 216552919,
+                "language": "Rust",
+                "last_commit": "2025-11-06T20:01:47Z",
+                "owner": "dalance",
+                "repo": "svlint",
+                "stars": 389
+              }
+            }
+          ],
+          "description": "An open source, MIT licensed SystemVerilog linting tool. Built on top of an open source SystemVerilog parser.",
+          "node_type": "group",
+          "title": "svlint"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/dalance/sv-parser",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 195226023,
+                "language": "Rust",
+                "last_commit": "2026-06-10T01:05:59Z",
+                "owner": "dalance",
+                "repo": "sv-parser",
+                "stars": 481
+              }
+            }
+          ],
+          "description": "An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly building custom tools / checkers.",
+          "node_type": "group",
+          "title": "sv-parser"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/chipsalliance/Surelog",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 218417034,
+                "language": "C++",
+                "last_commit": "2026-08-24T04:12:36Z",
+                "owner": "chipsalliance",
+                "repo": "Surelog",
+                "stars": 472
+              }
+            }
+          ],
+          "description": "\"This project aims at providing a complete System Verilog 2017 front-end: a preprocessor, a parser, an elaborator for both design and testbench.\"\n\"Linter, Simulator, Synthesis tool, Formal tools can use this front-end. They either can be developed as plugins (linked with) or use this front-end as an intermediate step of their compilation flows\".",
+          "node_type": "group",
+          "title": "Surelog: System Verilog 2017 Pre-processor, Parser"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/rggen/rggen",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 180550709,
+                "language": "Ruby",
+                "last_commit": "2026-08-16T03:07:59Z",
+                "owner": "rggen",
+                "repo": "rggen",
+                "stars": 468
+              }
+            }
+          ],
+          "description": "\"RgGen is a code generation tool for ASIC/IP/FPGA/RTL engineers. It will automatically generate soruce code related to configuration and status registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from human readable register map specifications.\"",
+          "node_type": "group",
+          "title": "RgGen"
+        },
         {
           "children": [
             {
@@ -138,10 +285,10 @@
                 "archived": false,
                 "id": 16964283,
                 "language": "Python",
-                "last_commit": "2026-08-21T14:45:52Z",
+                "last_commit": "2026-08-24T12:37:32Z",
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1452
+                "stars": 1453
               }
             },
             {
@@ -153,16 +300,38 @@
                 "archived": false,
                 "id": 16964283,
                 "language": "Python",
-                "last_commit": "2026-08-21T14:45:52Z",
+                "last_commit": "2026-08-24T12:37:32Z",
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1452
+                "stars": 1453
               }
             }
           ],
           "description": "From the project README: FuseSoC is an award-winning package manager and a set of build tools for HDL (Hardware Description Language) code. Its main purpose is to increase reuse of IP (Intellectual Property) cores and be an aid for creating, building and simulating SoC solutions.\nMy Opinion: If you need a tool to manage you HDL or testbench dependencies, package your IP for easy sharing, or generally just make your hardware design and verification life easier, FuseSoC is a great place to start.",
           "node_type": "group",
           "title": "FuseSoC"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/m-kru/fsva",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 202184802,
+                "language": "VHDL",
+                "last_commit": "2022-07-21T05:34:24Z",
+                "owner": "m-kru",
+                "repo": "fsva",
+                "stars": 22
+              }
+            }
+          ],
+          "description": "\"fsva (FuseSoc Verification Automation) is a tool that aims to automate the verification process of libraries and HDL design projects managed with FuseSoc build tool/system.\"",
+          "node_type": "group",
+          "title": "fsva"
         },
         {
           "children": [
@@ -255,7 +424,7 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-23T04:29:19Z",
+                "last_commit": "2026-08-24T13:21:33Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2483
@@ -270,7 +439,7 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-23T04:29:19Z",
+                "last_commit": "2026-08-24T13:21:33Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2483
@@ -354,6 +523,58 @@
           "description": "Functional Coverage and Constrained Randomization Extensions for Cocotb.\nThis package allows you to use constrained randomization and functional coverage techniques known from CRV (constrained random verification) and MDV (metric-driven verification) methodologies, available in SystemVerilog or e. Such extensions enable the implementation of an advanced verification environment for complex projects.\nThere is also a DVCon'17 presentation.",
           "node_type": "group",
           "title": "Cocotb Coverage"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AXI Bus",
+              "description": "Alex Forencich MIT",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 305507409,
+                "language": "Python",
+                "last_commit": "2026-08-15T01:16:04Z",
+                "owner": "alexforencich",
+                "repo": "cocotbext-axi",
+                "stars": 355
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ethernet",
+              "description": "Alex Forencich MIT",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 312122518,
+                "language": "Python",
+                "last_commit": "2026-08-15T04:44:55Z",
+                "owner": "alexforencich",
+                "repo": "cocotbext-eth",
+                "stars": 81
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "PCIe",
+              "description": "Alex Forencich MIT",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 305507557,
+                "language": "Python",
+                "last_commit": "2025-09-08T00:50:09Z",
+                "owner": "alexforencich",
+                "repo": "cocotbext-pcie",
+                "stars": 210
+              }
+            }
+          ],
+          "description": "Listed here are various cocotb plugins for common interfaces or modules:",
+          "node_type": "group",
+          "title": "Cocotb IPs"
         },
         {
           "children": [
@@ -589,10 +810,10 @@
                 "archived": false,
                 "id": 192356536,
                 "language": "VHDL",
-                "last_commit": "2026-06-06T04:58:43Z",
+                "last_commit": "2026-08-24T00:34:24Z",
                 "owner": "OSVVM",
                 "repo": "UART",
-                "stars": 15
+                "stars": 16
               }
             },
             {
@@ -614,6 +835,28 @@
           "description": "OSVVM is a VHDL verification framework, verification utility library, verification component library, and a simulator independent scripting flow. OSVVM provides VHDL with buzz word verification capabilities including Transaction Level Modeling, Constrained Random, Functional Coverage, Scoreboards, and Error Reporting that are simple to use and feel like built-in language features. The reporting capabilities include HTML outputs for human readability and JUnit based XML for CI/CD tools.\nThe GitHub organisation includes verification components:",
           "node_type": "group",
           "title": "OSVVM"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "License: Mozilla Public License, v. 2.0.",
+              "description": "baring OSVVM components.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 26829379,
+                "language": "VHDL",
+                "last_commit": "2026-08-13T13:51:34Z",
+                "owner": "VUnit",
+                "repo": "vunit",
+                "stars": 843
+              }
+            }
+          ],
+          "description": "\"VUnit is an open source unit testing framework for VHDL/SystemVerilog [...] It features the functionality needed to realize continuous and automated testing of your HDL code. VUnit doesn’t replace but rather complements traditional testing methodologies by supporting a “test early and often” approach through automation.\"\nBased partially on OSVVM",
+          "node_type": "group",
+          "title": "VUnit"
         },
         {
           "children": [
@@ -729,6 +972,144 @@
           "children": [
             {
               "node_type": "item",
+              "title": "Link: https://github.com/funningboy/uvm_axi",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 10845651,
+                "language": "Verilog",
+                "last_commit": "2013-06-23T08:03:15Z",
+                "owner": "funningboy",
+                "repo": "uvm_axi",
+                "stars": 274
+              }
+            }
+          ],
+          "description": "A bus functional model for ARM's AXI bus protocol. Looks like it has been written as a standard UVM Verification Package. Being written in SystemVerilog (using all of its object orientated, behavioural modelling features) makes it hard to re-use with the current set of FOSS simulators. It is still a good example of re-usable verification IP.\nLast commit in 2013, so likely un-maintained.",
+          "node_type": "group",
+          "title": "uvm_axi"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 68850972,
+                "language": "Verilog",
+                "last_commit": "2026-06-02T20:47:11Z",
+                "owner": "ZipCPU",
+                "repo": "wb2axip",
+                "stars": 696
+              }
+            }
+          ],
+          "description": "A set of formal properties for checking for correct protocol behaviour in an AXI bus. Used as part of a Wishbone-AXI bus bridge, but usable with any AXI bus. There is a great blog post on it's use here from ZipCPU. It works with SymbiYosys.",
+          "node_type": "group",
+          "title": "AXI Bus Formal VIP"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/taichi-ishitani/tvip-axi",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 149885780,
+                "language": "SystemVerilog",
+                "last_commit": "2024-06-28T07:50:07Z",
+                "owner": "taichi-ishitani",
+                "repo": "tvip-axi",
+                "stars": 473
+              }
+            }
+          ],
+          "description": "Bus function model for AMBA AXI protocol. Supports master and slave agents, AXI4 and AXI4-Lite protocols. Configurable address/data/id widths. Supports in/out-of-order responses, delayed responses and read interleaving.",
+          "node_type": "group",
+          "title": "AXI Bus Functional Model - tvip-axi"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/pulp-platform/axi",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 129229399,
+                "language": "SystemVerilog",
+                "last_commit": "2026-08-21T09:05:20Z",
+                "owner": "pulp-platform",
+                "repo": "axi",
+                "stars": 1663
+              }
+            }
+          ],
+          "description": "SystemVerilog modules, testbenches, and test classes for AMBA AXI4 and AXI4-Lite. Provides parametrizable and synthesizable implementations of many common AXI modules (e.g., crossbars, data width converters) and testbenches for them. Provides test classes (drivers and monitors) to write custom testbenches. Provides protocol-compliant multiplexers and demultiplexers to simplify the implementation and verification of custom AXI modules.",
+          "node_type": "group",
+          "title": "AXI SystemVerilog Modules and Verification Infrastructure"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/taichi-ishitani/tvip-apb",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 91000011,
+                "language": "SystemVerilog",
+                "last_commit": "2023-11-07T12:58:53Z",
+                "owner": "taichi-ishitani",
+                "repo": "tvip-apb",
+                "stars": 35
+              }
+            }
+          ],
+          "description": "Bus function model for AMBA APB protocol",
+          "node_type": "group",
+          "title": "APB Bus Functional Model - tvip-apb"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Link: https://github.com/antmicro/usb-test-suite-build",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 208862639,
+                "language": "Shell",
+                "last_commit": "2023-08-07T13:43:53Z",
+                "owner": "antmicro",
+                "repo": "usb-test-suite-build",
+                "stars": 53
+              }
+            }
+          ],
+          "description": "\"This is a Cocotb based USB 1.1 test suite (to be extended to cover higher versions of the standard) for FPGA IP, with testbenches for a variety of open source USB cores.\"",
+          "node_type": "group",
+          "title": "Antmicro USB Test Suite"
+        }
+      ],
+      "title": "Components / VIPs"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "Github Link: https://github.com/openhwgroup/core-v-verif",
               "description": null,
               "children": [],
@@ -804,7 +1185,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-23T15:35:18.845Z",
+    "last_updated": "2026-08-24T14:18:58.994Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
