@@ -54,7 +54,7 @@
                 "last_commit": "2026-08-23T21:30:59Z",
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3605
+                "stars": 3606
               }
             }
           ],
@@ -119,7 +119,7 @@
                 "last_commit": "2025-11-06T20:01:47Z",
                 "owner": "dalance",
                 "repo": "svlint",
-                "stars": 389
+                "stars": 390
               }
             }
           ],
@@ -160,7 +160,7 @@
                 "archived": false,
                 "id": 218417034,
                 "language": "C++",
-                "last_commit": "2026-08-24T04:12:36Z",
+                "last_commit": "2026-08-25T01:32:13Z",
                 "owner": "chipsalliance",
                 "repo": "Surelog",
                 "stars": 472
@@ -424,7 +424,7 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-24T13:21:33Z",
+                "last_commit": "2026-08-24T23:07:42Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2483
@@ -439,7 +439,7 @@
                 "archived": false,
                 "id": 10651005,
                 "language": "Python",
-                "last_commit": "2026-08-24T13:21:33Z",
+                "last_commit": "2026-08-24T23:07:42Z",
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2483
@@ -535,7 +535,7 @@
                 "archived": false,
                 "id": 305507409,
                 "language": "Python",
-                "last_commit": "2026-08-15T01:16:04Z",
+                "last_commit": "2026-08-24T22:45:50Z",
                 "owner": "alexforencich",
                 "repo": "cocotbext-axi",
                 "stars": 355
@@ -550,7 +550,7 @@
                 "archived": false,
                 "id": 312122518,
                 "language": "Python",
-                "last_commit": "2026-08-15T04:44:55Z",
+                "last_commit": "2026-08-24T22:56:08Z",
                 "owner": "alexforencich",
                 "repo": "cocotbext-eth",
                 "stars": 81
@@ -565,7 +565,7 @@
                 "archived": false,
                 "id": 305507557,
                 "language": "Python",
-                "last_commit": "2025-09-08T00:50:09Z",
+                "last_commit": "2026-08-25T00:00:05Z",
                 "owner": "alexforencich",
                 "repo": "cocotbext-pcie",
                 "stars": 210
@@ -982,7 +982,7 @@
                 "last_commit": "2013-06-23T08:03:15Z",
                 "owner": "funningboy",
                 "repo": "uvm_axi",
-                "stars": 274
+                "stars": 273
               }
             }
           ],
@@ -1048,7 +1048,7 @@
                 "last_commit": "2026-08-21T09:05:20Z",
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1663
+                "stars": 1665
               }
             }
           ],
@@ -1185,7 +1185,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T15:53:46.852Z",
+    "last_updated": "2026-08-25T06:12:44.708Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
