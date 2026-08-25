@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,705 | 🐛 556 | 🌐 C++ | 📅 2026-08-24 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,705 | 🐛 558 | 🌐 C++ | 📅 2026-08-25 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,665 | 🐛 73 | 🌐 SystemVerilog | 📅 2026-08-21
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,665 | 🐛 74 | 🌐 SystemVerilog | 📅 2026-08-25
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 

@@ -1045,7 +1045,7 @@
                 "archived": false,
                 "id": 129229399,
                 "language": "SystemVerilog",
-                "last_commit": "2026-08-21T09:05:20Z",
+                "last_commit": "2026-08-25T12:23:33Z",
                 "owner": "pulp-platform",
                 "repo": "axi",
                 "stars": 1665
@@ -1185,7 +1185,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T06:12:44.708Z",
+    "last_updated": "2026-08-25T15:58:19.499Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
