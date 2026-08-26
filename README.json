@@ -54,7 +54,7 @@
                 "last_commit": "2026-08-23T21:30:59Z",
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3606
+                "stars": 3608
               }
             }
           ],
@@ -80,7 +80,7 @@
             "last_commit": "2026-04-03T15:17:27Z",
             "owner": "chipsalliance",
             "repo": "riscv-dv",
-            "stars": 1347
+            "stars": 1350
           }
         },
         {
@@ -160,7 +160,7 @@
                 "archived": false,
                 "id": 218417034,
                 "language": "C++",
-                "last_commit": "2026-08-25T01:32:13Z",
+                "last_commit": "2026-08-26T01:09:01Z",
                 "owner": "chipsalliance",
                 "repo": "Surelog",
                 "stars": 472
@@ -244,7 +244,7 @@
                 "last_commit": "2026-08-21T03:32:14Z",
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1106
+                "stars": 1108
               }
             },
             {
@@ -264,7 +264,7 @@
                     "last_commit": "2026-08-21T03:32:14Z",
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1106
+                    "stars": 1108
                   }
                 }
               ]
@@ -906,7 +906,7 @@
                 "archived": false,
                 "id": 409325108,
                 "language": "Dart",
-                "last_commit": "2026-08-19T20:37:54Z",
+                "last_commit": "2026-08-25T19:46:47Z",
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488
@@ -921,7 +921,7 @@
                 "archived": false,
                 "id": 409325108,
                 "language": "Dart",
-                "last_commit": "2026-08-19T20:37:54Z",
+                "last_commit": "2026-08-25T19:46:47Z",
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488
@@ -1004,7 +1004,7 @@
                 "last_commit": "2026-06-02T20:47:11Z",
                 "owner": "ZipCPU",
                 "repo": "wb2axip",
-                "stars": 696
+                "stars": 697
               }
             }
           ],
@@ -1026,7 +1026,7 @@
                 "last_commit": "2024-06-28T07:50:07Z",
                 "owner": "taichi-ishitani",
                 "repo": "tvip-axi",
-                "stars": 473
+                "stars": 474
               }
             }
           ],
@@ -1045,10 +1045,10 @@
                 "archived": false,
                 "id": 129229399,
                 "language": "SystemVerilog",
-                "last_commit": "2026-08-25T12:23:33Z",
+                "last_commit": "2026-08-26T15:37:55Z",
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1665
+                "stars": 1666
               }
             }
           ],
@@ -1185,7 +1185,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T15:58:19.499Z",
+    "last_updated": "2026-08-26T16:33:56.025Z",
     "original_repository": "ben-marshall/awesome-open-hardware-verification",
     "original_repository_id": 162694810,
     "original_repository_sha": "0d3627b6c19f01b97f66689f2bbedce6d75074be",
