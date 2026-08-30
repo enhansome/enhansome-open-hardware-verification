@@ -221,7 +221,7 @@
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
-                "stars": 472,
+                "stars": 473,
                 "topics": [
                   "antlr",
                   "antlr4-grammar",
@@ -309,8 +309,8 @@
                 "id": 89927379,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-28T11:30:51Z",
-                "open_issues": 149,
+                "last_commit": "2026-08-30T14:57:39Z",
+                "open_issues": 147,
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 114,
@@ -335,8 +335,8 @@
                     "id": 89927379,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-08-28T11:30:51Z",
-                    "open_issues": 149,
+                    "last_commit": "2026-08-30T14:57:39Z",
+                    "open_issues": 147,
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 114,
@@ -625,8 +625,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-08-29T13:09:12Z",
-                "open_issues": 412,
+                "last_commit": "2026-08-30T18:35:23Z",
+                "open_issues": 410,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2486,
@@ -653,8 +653,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-08-29T13:09:12Z",
-                "open_issues": 412,
+                "last_commit": "2026-08-30T18:35:23Z",
+                "open_issues": 410,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2486,
@@ -1227,7 +1227,7 @@
                 "id": 281009137,
                 "language": null,
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-29T16:38:33Z",
+                "last_commit": "2026-08-30T00:44:44Z",
                 "open_issues": 4,
                 "owner": "OSVVM",
                 "repo": "OsvvmLibraries",
@@ -1617,7 +1617,7 @@
                 "open_issues": 74,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1668,
+                "stars": 1671,
                 "topics": [
                   "asic",
                   "axi",
@@ -1724,7 +1724,7 @@
                 "open_issues": 157,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 714,
+                "stars": 715,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 157,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 714,
+                "stars": 715,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 531,
+                "stars": 532,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 531,
+                "stars": 532,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T18:26:41.647Z",
+    "last_updated": "2026-08-30T18:37:35.217Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
