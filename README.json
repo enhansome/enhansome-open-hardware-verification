@@ -70,7 +70,7 @@
                 "open_issues": 188,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3611,
+                "stars": 3613,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -217,7 +217,7 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-28T18:33:22Z",
+                "last_commit": "2026-08-31T18:48:17Z",
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
@@ -362,7 +362,7 @@
                 "open_issues": 802,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1110,
+                "stars": 1111,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -388,7 +388,7 @@
                     "open_issues": 802,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1110,
+                    "stars": 1111,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -625,8 +625,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-08-30T18:35:23Z",
-                "open_issues": 410,
+                "last_commit": "2026-08-31T05:40:24Z",
+                "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2486,
@@ -653,8 +653,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-08-30T18:35:23Z",
-                "open_issues": 410,
+                "last_commit": "2026-08-31T05:40:24Z",
+                "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2486,
@@ -866,7 +866,7 @@
                 "id": 198527127,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-07-05T21:24:16Z",
+                "last_commit": "2026-08-31T03:32:16Z",
                 "open_issues": 52,
                 "owner": "fvutils",
                 "repo": "pyvsc",
@@ -897,7 +897,7 @@
                 "id": 198527127,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-07-05T21:24:16Z",
+                "last_commit": "2026-08-31T03:32:16Z",
                 "open_issues": 52,
                 "owner": "fvutils",
                 "repo": "pyvsc",
@@ -1302,7 +1302,7 @@
                 "language": "VHDL",
                 "license": "NOASSERTION",
                 "last_commit": "2026-08-13T13:51:34Z",
-                "open_issues": 270,
+                "open_issues": 271,
                 "owner": "VUnit",
                 "repo": "vunit",
                 "stars": 845,
@@ -1545,7 +1545,7 @@
                 "open_issues": 6,
                 "owner": "ZipCPU",
                 "repo": "wb2axip",
-                "stars": 699,
+                "stars": 700,
                 "topics": [
                   "axi-bus",
                   "fpga",
@@ -1617,7 +1617,7 @@
                 "open_issues": 74,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1671,
+                "stars": 1673,
                 "topics": [
                   "asic",
                   "axi",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-30T18:37:35.217Z",
+    "last_updated": "2026-08-31T20:49:10.064Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
