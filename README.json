@@ -70,7 +70,7 @@
                 "open_issues": 187,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3622,
+                "stars": 3624,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -217,11 +217,11 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-02T15:08:57Z",
+                "last_commit": "2026-09-03T15:52:40Z",
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
-                "stars": 473,
+                "stars": 474,
                 "topics": [
                   "antlr",
                   "antlr4-grammar",
@@ -362,7 +362,7 @@
                 "open_issues": 802,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1112,
+                "stars": 1113,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -388,7 +388,7 @@
                     "open_issues": 802,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1112,
+                    "stars": 1113,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -629,7 +629,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2487,
+                "stars": 2488,
                 "topics": [
                   "python",
                   "test",
@@ -657,7 +657,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2487,
+                "stars": 2488,
                 "topics": [
                   "python",
                   "test",
@@ -988,7 +988,7 @@
                 "open_issues": 23,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 462,
+                "stars": 463,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1009,7 +1009,7 @@
                 "open_issues": 23,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 462,
+                "stars": 463,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1030,7 +1030,7 @@
                 "open_issues": 23,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 462,
+                "stars": 463,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1388,8 +1388,8 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-09-01T16:59:03Z",
-                "open_issues": 139,
+                "last_commit": "2026-09-03T00:15:56Z",
+                "open_issues": 140,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488,
@@ -1418,8 +1418,8 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-09-01T16:59:03Z",
-                "open_issues": 139,
+                "last_commit": "2026-09-03T00:15:56Z",
+                "open_issues": 140,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488,
@@ -1617,7 +1617,7 @@
                 "open_issues": 75,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1677,
+                "stars": 1679,
                 "topics": [
                   "asic",
                   "axi",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-02T18:39:59.139Z",
+    "last_updated": "2026-09-03T18:36:20.434Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
