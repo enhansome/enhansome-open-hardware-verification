@@ -70,7 +70,7 @@
                 "open_issues": 187,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3624,
+                "stars": 3625,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -98,11 +98,11 @@
             "id": 167140400,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-04-03T15:17:27Z",
-            "open_issues": 166,
+            "last_commit": "2026-09-04T10:19:31Z",
+            "open_issues": 167,
             "owner": "chipsalliance",
             "repo": "riscv-dv",
-            "stars": 1351,
+            "stars": 1352,
             "topics": []
           },
           "first_seen": "2026-08-29T00:00:33.102Z"
@@ -359,10 +359,10 @@
                 "language": "C++",
                 "license": "NOASSERTION",
                 "last_commit": "2026-08-21T03:32:14Z",
-                "open_issues": 802,
+                "open_issues": 803,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1113,
+                "stars": 1114,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -385,10 +385,10 @@
                     "language": "C++",
                     "license": "NOASSERTION",
                     "last_commit": "2026-08-21T03:32:14Z",
-                    "open_issues": 802,
+                    "open_issues": 803,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1113,
+                    "stars": 1114,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -515,7 +515,7 @@
                 "open_issues": 20,
                 "owner": "openhwgroup",
                 "repo": "force-riscv",
-                "stars": 313,
+                "stars": 314,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -536,7 +536,7 @@
                 "open_issues": 20,
                 "owner": "openhwgroup",
                 "repo": "force-riscv",
-                "stars": 313,
+                "stars": 314,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -629,7 +629,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2488,
+                "stars": 2489,
                 "topics": [
                   "python",
                   "test",
@@ -657,7 +657,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2488,
+                "stars": 2489,
                 "topics": [
                   "python",
                   "test",
@@ -800,7 +800,7 @@
                 "open_issues": 63,
                 "owner": "alexforencich",
                 "repo": "cocotbext-axi",
-                "stars": 356,
+                "stars": 357,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -821,7 +821,7 @@
                 "open_issues": 6,
                 "owner": "alexforencich",
                 "repo": "cocotbext-eth",
-                "stars": 81,
+                "stars": 82,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1581,7 +1581,7 @@
                 "open_issues": 8,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-axi",
-                "stars": 474,
+                "stars": 475,
                 "topics": [
                   "amba",
                   "amba-axi",
@@ -1617,7 +1617,7 @@
                 "open_issues": 75,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1679,
+                "stars": 1680,
                 "topics": [
                   "asic",
                   "axi",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-03T18:36:20.434Z",
+    "last_updated": "2026-09-04T18:22:18.512Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",

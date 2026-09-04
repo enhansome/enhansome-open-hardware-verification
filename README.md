@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,730 | 🐛 562 | 🌐 C++ | 📅 2026-09-03 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,733 | 🐛 560 | 🌐 C++ | 📅 2026-09-04 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,624 | 🐛 187 | 🌐 C++ | 📅 2026-09-01
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,625 | 🐛 187 | 🌐 C++ | 📅 2026-09-01
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -214,7 +214,7 @@ similar projects.
 The project also has a Python generator, which, while less capable
 as of the time of this writing, can be run with FOSS HDL simulators.
 
-* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,351 | 🐛 166 | 🌐 Python | 📅 2026-04-03
+* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,352 | 🐛 167 | 🌐 Python | 📅 2026-09-04
 * License: Apache-2.0
 * Written In: SystemVerilog + UVM
 
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,113 | 🐛 802 | 🌐 C++ | 📅 2026-08-21
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,114 | 🐛 803 | 🌐 C++ | 📅 2026-08-21
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,113 | 🐛 802 | 🌐 C++ | 📅 2026-08-21
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,114 | 🐛 803 | 🌐 C++ | 📅 2026-08-21
 * Written in: C++.
 
 ### FuseSoC
@@ -337,8 +337,8 @@ Feature set:
 
 Details:
 
-* Link: <https://github.com/openhwgroup/force-riscv> ⭐ 313 | 🐛 20 | 🌐 C++ | 📅 2023-10-17
-* License: [Apache-2.0](https://github.com/openhwgroup/force-riscv/blob/master/LICENSE) ⭐ 313 | 🐛 20 | 🌐 C++ | 📅 2023-10-17
+* Link: <https://github.com/openhwgroup/force-riscv> ⭐ 314 | 🐛 20 | 🌐 C++ | 📅 2023-10-17
+* License: [Apache-2.0](https://github.com/openhwgroup/force-riscv/blob/master/LICENSE) ⭐ 314 | 🐛 20 | 🌐 C++ | 📅 2023-10-17
 * Written In: C++, Python3
 * Write Tests In: Python3
 
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,488 | 🐛 411 | 🌐 Python | 📅 2026-09-01
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,488 | 🐛 411 | 🌐 Python | 📅 2026-09-01
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,489 | 🐛 411 | 🌐 Python | 📅 2026-09-01
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,489 | 🐛 411 | 🌐 Python | 📅 2026-09-01
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -397,8 +397,8 @@ Listed here are various cocotb plugins for common interfaces or modules:
 
 | Interface / Module                                                                                     | Author                                                       | License |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 356 \| 🐛 63 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
-| [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 81 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 357 \| 🐛 63 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 82 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 211 \| 🐛 17 \| 🌐 Python \| 📅 2026-08-25   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 
 ### fvutils/pyvsc
@@ -539,7 +539,7 @@ Supports master and slave agents, AXI4 and AXI4-Lite protocols.
 Configurable address/data/id widths.
 Supports in/out-of-order responses, delayed responses and read interleaving.
 
-* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 474 | 🐛 8 | 🌐 SystemVerilog | 📅 2024-06-28
+* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 475 | 🐛 8 | 🌐 SystemVerilog | 📅 2024-06-28
 * Written in: SystemVerilog and UVM
 * License: Apache-2.0
 
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,679 | 🐛 75 | 🌐 SystemVerilog | 📅 2026-08-27
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,680 | 🐛 75 | 🌐 SystemVerilog | 📅 2026-08-27
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,488 | 🐛 411 | 🌐 Python | 📅 2026-09-01 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,489 | 🐛 411 | 🌐 Python | 📅 2026-09-01 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-04._
