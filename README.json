@@ -66,11 +66,11 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-01T23:47:12Z",
-                "open_issues": 187,
+                "last_commit": "2026-09-04T23:52:04Z",
+                "open_issues": 182,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3625,
+                "stars": 3626,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -217,7 +217,7 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-03T15:52:40Z",
+                "last_commit": "2026-09-04T22:34:05Z",
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
@@ -1227,7 +1227,7 @@
                 "id": 281009137,
                 "language": null,
                 "license": "NOASSERTION",
-                "last_commit": "2026-09-02T17:30:42Z",
+                "last_commit": "2026-09-05T01:55:31Z",
                 "open_issues": 4,
                 "owner": "OSVVM",
                 "repo": "OsvvmLibraries",
@@ -1388,7 +1388,7 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-09-03T00:15:56Z",
+                "last_commit": "2026-09-04T20:18:09Z",
                 "open_issues": 140,
                 "owner": "intel",
                 "repo": "rohd",
@@ -1418,7 +1418,7 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-09-03T00:15:56Z",
+                "last_commit": "2026-09-04T20:18:09Z",
                 "open_issues": 140,
                 "owner": "intel",
                 "repo": "rohd",
@@ -1545,7 +1545,7 @@
                 "open_issues": 6,
                 "owner": "ZipCPU",
                 "repo": "wb2axip",
-                "stars": 703,
+                "stars": 704,
                 "topics": [
                   "axi-bus",
                   "fpga",
@@ -1617,7 +1617,7 @@
                 "open_issues": 75,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1680,
+                "stars": 1681,
                 "topics": [
                   "asic",
                   "axi",
@@ -1724,7 +1724,7 @@
                 "open_issues": 158,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 715,
+                "stars": 716,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 158,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 715,
+                "stars": 716,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-04T18:22:18.512Z",
+    "last_updated": "2026-09-05T17:19:36.733Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
