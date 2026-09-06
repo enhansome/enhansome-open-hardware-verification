@@ -67,7 +67,7 @@
                 "language": "C++",
                 "license": "GPL-2.0",
                 "last_commit": "2026-09-04T23:52:04Z",
-                "open_issues": 182,
+                "open_issues": 184,
                 "owner": "steveicarus",
                 "repo": "iverilog",
                 "stars": 3626,
@@ -102,7 +102,7 @@
             "open_issues": 167,
             "owner": "chipsalliance",
             "repo": "riscv-dv",
-            "stars": 1352,
+            "stars": 1353,
             "topics": []
           },
           "first_seen": "2026-08-29T00:00:33.102Z"
@@ -309,8 +309,8 @@
                 "id": 89927379,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-08-30T14:57:39Z",
-                "open_issues": 147,
+                "last_commit": "2026-09-06T17:25:45Z",
+                "open_issues": 148,
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 115,
@@ -335,8 +335,8 @@
                     "id": 89927379,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-08-30T14:57:39Z",
-                    "open_issues": 147,
+                    "last_commit": "2026-09-06T17:25:45Z",
+                    "open_issues": 148,
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 115,
@@ -362,7 +362,7 @@
                 "open_issues": 803,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1114,
+                "stars": 1116,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -388,7 +388,7 @@
                     "open_issues": 803,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1114,
+                    "stars": 1116,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -629,7 +629,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2489,
+                "stars": 2494,
                 "topics": [
                   "python",
                   "test",
@@ -657,7 +657,7 @@
                 "open_issues": 411,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2489,
+                "stars": 2494,
                 "topics": [
                   "python",
                   "test",
@@ -800,7 +800,7 @@
                 "open_issues": 63,
                 "owner": "alexforencich",
                 "repo": "cocotbext-axi",
-                "stars": 357,
+                "stars": 359,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1389,7 +1389,7 @@
                 "language": "Dart",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-09-04T20:18:09Z",
-                "open_issues": 140,
+                "open_issues": 141,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488,
@@ -1419,7 +1419,7 @@
                 "language": "Dart",
                 "license": "BSD-3-Clause",
                 "last_commit": "2026-09-04T20:18:09Z",
-                "open_issues": 140,
+                "open_issues": 141,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 488,
@@ -1617,7 +1617,7 @@
                 "open_issues": 75,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1681,
+                "stars": 1682,
                 "topics": [
                   "asic",
                   "axi",
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 533,
+                "stars": 534,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 533,
+                "stars": 534,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-05T17:19:36.733Z",
+    "last_updated": "2026-09-06T17:36:13.617Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
