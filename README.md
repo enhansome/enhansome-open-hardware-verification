@@ -31,7 +31,7 @@ design verification.
 
 If you're after hardware *design* tools, these awesome lists are a good place to start:
 
-* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,171 | 🐛 2 | 📅 2026-07-09
+* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,170 | 🐛 2 | 📅 2026-07-09
 
 Further, entries in this list should not only be open source themselves, but *be usable* by
 people developing open source hardware using open source tools. For example, if company `X`
@@ -95,7 +95,7 @@ when I get the time to remember how Github Pages works.
 * [OSVVM](#osvvm)
 * [VUnit](#vunit)
 * [V3](#v3)
-* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 146 | 🌐 Dart | 📅 2026-09-04 for building and executing testbenches.
+* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 143 | 🌐 Dart | 📅 2026-09-12 for building and executing testbenches.
 
 ### Components / VIPs
 
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,456 | 🐛 151 | 🌐 Python | 📅 2026-09-08
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,456 | 🐛 151 | 🌐 Python | 📅 2026-09-08
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,456 | 🐛 152 | 🌐 Python | 📅 2026-09-12
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,456 | 🐛 152 | 🌐 Python | 📅 2026-09-12
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,456 | 🐛 151 | 🌐 Python | 📅 2026-09-08 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,456 | 🐛 152 | 🌐 Python | 📅 2026-09-12 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 22 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,498 | 🐛 414 | 🌐 Python | 📅 2026-09-11
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,498 | 🐛 414 | 🌐 Python | 📅 2026-09-11
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,500 | 🐛 414 | 🌐 Python | 📅 2026-09-12
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,500 | 🐛 414 | 🌐 Python | 📅 2026-09-12
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -456,7 +456,7 @@ The GitHub organisation includes verification components:
 
 * [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 157 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
 
-* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 87 | 🐛 5 | 📅 2026-09-10
+* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 88 | 🐛 5 | 📅 2026-09-10
 
 * [UART - Transmitter and Receiver](https://github.com/OSVVM/UART) ⭐ 16 | 🐛 2 | 🌐 VHDL | 📅 2026-09-10
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 272 | 🌐 VHDL | 📅 2026-08-13 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 272 | 🌐 VHDL | 📅 2026-09-11 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -497,10 +497,10 @@ Academic project, looks unmaintained since 2014.
 
 ### ROHD Verification Framework
 
-*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 488 | 🐛 146 | 🌐 Dart | 📅 2026-09-04. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
+*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 488 | 🐛 143 | 🌐 Dart | 📅 2026-09-12. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
 
-* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 146 | 🌐 Dart | 📅 2026-09-04
-* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 146 | 🌐 Dart | 📅 2026-09-04 including a fast event-based simulator
+* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 143 | 🌐 Dart | 📅 2026-09-12
+* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 488 | 🐛 143 | 🌐 Dart | 📅 2026-09-12 including a fast event-based simulator
 * License: [BSD-3-Clause](https://github.com/intel/rohd-vf/blob/main/LICENSE) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13
 * Link: <https://github.com/intel/rohd-vf> ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13
 * Written in: Dart
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,498 | 🐛 414 | 🌐 Python | 📅 2026-09-11 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,500 | 🐛 414 | 🌐 Python | 📅 2026-09-12 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -621,8 +621,8 @@ efforts for their open source RISC-V CPUs. It's a good place
 to look at how a large verification project is planned and
 organised.
 
-* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 719 | 🐛 158 | 🌐 Assembly | 📅 2026-09-10
-* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 719 | 🐛 158 | 🌐 Assembly | 📅 2026-09-10
+* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 719 | 🐛 159 | 🌐 Assembly | 📅 2026-09-10
+* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 719 | 🐛 159 | 🌐 Assembly | 📅 2026-09-10
 * Verification Strategy Document: <https://core-v-docs-verif-strat.readthedocs.io/en/latest/>
 
 ### LowRISC Style Guides
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-12._
