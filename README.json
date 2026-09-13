@@ -66,8 +66,8 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-09-10T05:04:35Z",
-                "open_issues": 186,
+                "last_commit": "2026-09-13T16:56:57Z",
+                "open_issues": 187,
                 "owner": "steveicarus",
                 "repo": "iverilog",
                 "stars": 3632,
@@ -217,7 +217,7 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-11T22:34:59Z",
+                "last_commit": "2026-09-13T16:41:39Z",
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
@@ -362,7 +362,7 @@
                 "open_issues": 808,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1130,
+                "stars": 1132,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -388,7 +388,7 @@
                     "open_issues": 808,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1130,
+                    "stars": 1132,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -629,7 +629,7 @@
                 "open_issues": 414,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2500,
+                "stars": 2501,
                 "topics": [
                   "python",
                   "test",
@@ -657,7 +657,7 @@
                 "open_issues": 414,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2500,
+                "stars": 2501,
                 "topics": [
                   "python",
                   "test",
@@ -1302,7 +1302,7 @@
                 "language": "VHDL",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-11T22:15:11Z",
-                "open_issues": 272,
+                "open_issues": 273,
                 "owner": "VUnit",
                 "repo": "vunit",
                 "stars": 845,
@@ -1724,7 +1724,7 @@
                 "open_issues": 159,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 719,
+                "stars": 720,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 159,
                 "owner": "openhwgroup",
                 "repo": "core-v-verif",
-                "stars": 719,
+                "stars": 720,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 536,
+                "stars": 537,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 536,
+                "stars": 537,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T17:45:00.304Z",
+    "last_updated": "2026-09-13T18:10:33.610Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
