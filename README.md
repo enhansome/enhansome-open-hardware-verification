@@ -31,7 +31,7 @@ design verification.
 
 If you're after hardware *design* tools, these awesome lists are a good place to start:
 
-* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,171 | 🐛 2 | 📅 2026-07-09
+* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,173 | 🐛 2 | 📅 2026-07-09
 
 Further, entries in this list should not only be open source themselves, but *be usable* by
 people developing open source hardware using open source tools. For example, if company `X`
@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,761 | 🐛 555 | 🌐 C++ | 📅 2026-09-19 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,761 | 🐛 554 | 🌐 C++ | 📅 2026-09-20 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,644 | 🐛 187 | 🌐 C++ | 📅 2026-09-18
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,648 | 🐛 188 | 🌐 C++ | 📅 2026-09-18
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -214,7 +214,7 @@ similar projects.
 The project also has a Python generator, which, while less capable
 as of the time of this writing, can be run with FOSS HDL simulators.
 
-* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,356 | 🐛 168 | 🌐 Python | 📅 2026-09-04
+* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,357 | 🐛 168 | 🌐 Python | 📅 2026-09-04
 * License: Apache-2.0
 * Written In: SystemVerilog + UVM
 
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,510 | 🐛 417 | 🌐 Python | 📅 2026-09-19
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,510 | 🐛 417 | 🌐 Python | 📅 2026-09-19
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,513 | 🐛 417 | 🌐 Python | 📅 2026-09-19
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,513 | 🐛 417 | 🌐 Python | 📅 2026-09-19
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -450,11 +450,11 @@ OSVVM is a VHDL verification framework, verification utility library, verificati
 
 The GitHub organisation includes verification components:
 
-* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 157 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
 
-* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 157 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
 
-* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 157 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
 
 * GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 88 | 🐛 5 | 📅 2026-09-16
 
@@ -527,7 +527,7 @@ Used as part of a Wishbone-AXI bus bridge, but usable with any AXI bus.
 There is a great blog post on it's use [here](https://zipcpu.com/formal/2018/12/28/axilite.html) from ZipCPU.
 It works with SymbiYosys.
 
-* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 704 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
+* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 705 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
 * Written in: Verilog
 * Write Testbenches In: Verilog
 * License: None specified
@@ -539,7 +539,7 @@ Supports master and slave agents, AXI4 and AXI4-Lite protocols.
 Configurable address/data/id widths.
 Supports in/out-of-order responses, delayed responses and read interleaving.
 
-* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 477 | 🐛 8 | 🌐 SystemVerilog | 📅 2024-06-28
+* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 478 | 🐛 8 | 🌐 SystemVerilog | 📅 2024-06-28
 * Written in: SystemVerilog and UVM
 * License: Apache-2.0
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,510 | 🐛 417 | 🌐 Python | 📅 2026-09-19 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,513 | 🐛 417 | 🌐 Python | 📅 2026-09-19 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -621,8 +621,8 @@ efforts for their open source RISC-V CPUs. It's a good place
 to look at how a large verification project is planned and
 organised.
 
-* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 722 | 🐛 158 | 🌐 Assembly | 📅 2026-09-14
-* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 722 | 🐛 158 | 🌐 Assembly | 📅 2026-09-14
+* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 723 | 🐛 158 | 🌐 Assembly | 📅 2026-09-14
+* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 723 | 🐛 158 | 🌐 Assembly | 📅 2026-09-14
 * Verification Strategy Document: <https://core-v-docs-verif-strat.readthedocs.io/en/latest/>
 
 ### LowRISC Style Guides
@@ -631,8 +631,8 @@ These are the style guides used by the
 [LowRISC project](https://www.lowrisc.org/)
 for writing both RTL and UVM based testbenches.
 
-* License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE) ⭐ 541 | 🐛 21 | 📅 2026-07-08
-* Link: <https://github.com/lowRISC/style-guides> ⭐ 541 | 🐛 21 | 📅 2026-07-08
+* License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE) ⭐ 542 | 🐛 21 | 📅 2026-07-08
+* Link: <https://github.com/lowRISC/style-guides> ⭐ 542 | 🐛 21 | 📅 2026-07-08
 
 ## Conferences:
 
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-20._

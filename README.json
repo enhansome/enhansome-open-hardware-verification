@@ -67,10 +67,10 @@
                 "language": "C++",
                 "license": "GPL-2.0",
                 "last_commit": "2026-09-18T08:08:42Z",
-                "open_issues": 187,
+                "open_issues": 188,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3644,
+                "stars": 3648,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -102,7 +102,7 @@
             "open_issues": 168,
             "owner": "chipsalliance",
             "repo": "riscv-dv",
-            "stars": 1356,
+            "stars": 1357,
             "topics": []
           },
           "first_seen": "2026-08-29T00:00:33.102Z"
@@ -629,7 +629,7 @@
                 "open_issues": 417,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2510,
+                "stars": 2513,
                 "topics": [
                   "python",
                   "test",
@@ -657,7 +657,7 @@
                 "open_issues": 417,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2510,
+                "stars": 2513,
                 "topics": [
                   "python",
                   "test",
@@ -1129,7 +1129,7 @@
                 "open_issues": 9,
                 "owner": "OSVVM",
                 "repo": "AXI4",
-                "stars": 157,
+                "stars": 158,
                 "topics": [
                   "axi4",
                   "axi4-lite",
@@ -1163,7 +1163,7 @@
                 "open_issues": 9,
                 "owner": "OSVVM",
                 "repo": "AXI4",
-                "stars": 157,
+                "stars": 158,
                 "topics": [
                   "axi4",
                   "axi4-lite",
@@ -1197,7 +1197,7 @@
                 "open_issues": 9,
                 "owner": "OSVVM",
                 "repo": "AXI4",
-                "stars": 157,
+                "stars": 158,
                 "topics": [
                   "axi4",
                   "axi4-lite",
@@ -1545,7 +1545,7 @@
                 "open_issues": 7,
                 "owner": "ZipCPU",
                 "repo": "wb2axip",
-                "stars": 704,
+                "stars": 705,
                 "topics": [
                   "axi-bus",
                   "fpga",
@@ -1581,7 +1581,7 @@
                 "open_issues": 8,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-axi",
-                "stars": 477,
+                "stars": 478,
                 "topics": [
                   "amba",
                   "amba-axi",
@@ -1724,7 +1724,7 @@
                 "open_issues": 158,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 722,
+                "stars": 723,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 158,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 722,
+                "stars": 723,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 541,
+                "stars": 542,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 541,
+                "stars": 542,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-19T17:59:15.821Z",
+    "last_updated": "2026-09-20T18:11:38.947Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
