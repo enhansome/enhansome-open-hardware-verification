@@ -95,7 +95,7 @@ when I get the time to remember how Github Pages works.
 * [OSVVM](#osvvm)
 * [VUnit](#vunit)
 * [V3](#v3)
-* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 148 | 🌐 Dart | 📅 2026-09-23 for building and executing testbenches.
+* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 149 | 🌐 Dart | 📅 2026-09-23 for building and executing testbenches.
 
 ### Components / VIPs
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,657 | 🐛 187 | 🌐 C++ | 📅 2026-09-22
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,660 | 🐛 186 | 🌐 C++ | 📅 2026-09-26
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -238,7 +238,7 @@ An open source, MIT licensed SystemVerilog linting tool. Built on top of an open
 
 An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly building custom tools / checkers.
 
-* Link: <https://github.com/dalance/sv-parser> ⭐ 482 | 🐛 40 | 🌐 Rust | 📅 2026-06-10
+* Link: <https://github.com/dalance/sv-parser> ⭐ 482 | 🐛 41 | 🌐 Rust | 📅 2026-06-10
 * License: MIT / Apache
 * Written In: Rust
 
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,520 | 🐛 418 | 🌐 Python | 📅 2026-09-25
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,520 | 🐛 418 | 🌐 Python | 📅 2026-09-25
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 275 | 🌐 VHDL | 📅 2026-09-24 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 275 | 🌐 VHDL | 📅 2026-09-26 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -497,10 +497,10 @@ Academic project, looks unmaintained since 2014.
 
 ### ROHD Verification Framework
 
-*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 491 | 🐛 148 | 🌐 Dart | 📅 2026-09-23. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
+*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 491 | 🐛 149 | 🌐 Dart | 📅 2026-09-23. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
 
-* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 148 | 🌐 Dart | 📅 2026-09-23
-* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 148 | 🌐 Dart | 📅 2026-09-23 including a fast event-based simulator
+* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 149 | 🌐 Dart | 📅 2026-09-23
+* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 491 | 🐛 149 | 🌐 Dart | 📅 2026-09-23 including a fast event-based simulator
 * License: [BSD-3-Clause](https://github.com/intel/rohd-vf/blob/main/LICENSE) ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13
 * Link: <https://github.com/intel/rohd-vf> ⭐ 48 | 🐛 5 | 🌐 Dart | 📅 2026-07-13
 * Written in: Dart
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,520 | 🐛 418 | 🌐 Python | 📅 2026-09-25 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-25._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-26._
