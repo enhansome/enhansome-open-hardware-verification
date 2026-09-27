@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,776 | 🐛 553 | 🌐 C++ | 📅 2026-09-25 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,778 | 🐛 556 | 🌐 C++ | 📅 2026-09-27 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,660 | 🐛 186 | 🌐 C++ | 📅 2026-09-26
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,661 | 🐛 186 | 🌐 C++ | 📅 2026-09-26
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 475 | 🐛 47 | 🌐 C++ | 📅 2026-09-24
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 475 | 🐛 47 | 🌐 C++ | 📅 2026-09-27
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 116 | 🐛 143 | 🌐 C++ | 📅 2026-09-25
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 116 | 🐛 149 | 🌐 C++ | 📅 2026-09-27
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 116 | 🐛 143 | 🌐 C++ | 📅 2026-09-25
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 116 | 🐛 149 | 🌐 C++ | 📅 2026-09-27
 * Written in: C++.
 
 **CBMC:**
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,463 | 🐛 153 | 🌐 Python | 📅 2026-09-25
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,463 | 🐛 153 | 🌐 Python | 📅 2026-09-25
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,465 | 🐛 153 | 🌐 Python | 📅 2026-09-25
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,465 | 🐛 153 | 🌐 Python | 📅 2026-09-25
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,463 | 🐛 153 | 🌐 Python | 📅 2026-09-25 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,465 | 🐛 153 | 🌐 Python | 📅 2026-09-25 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 22 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,522 | 🐛 417 | 🌐 Python | 📅 2026-09-27
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,522 | 🐛 417 | 🌐 Python | 📅 2026-09-27
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -397,7 +397,7 @@ Listed here are various cocotb plugins for common interfaces or modules:
 
 | Interface / Module                                                                                     | Author                                                       | License |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 361 \| 🐛 64 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 362 \| 🐛 64 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 82 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 210 \| 🐛 17 \| 🌐 Python \| 📅 2026-08-25   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 275 | 🌐 VHDL | 📅 2026-09-26 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 845 | 🐛 276 | 🌐 VHDL | 📅 2026-09-26 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,521 | 🐛 418 | 🌐 Python | 📅 2026-09-25 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,522 | 🐛 417 | 🌐 Python | 📅 2026-09-27 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-26._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-27._
