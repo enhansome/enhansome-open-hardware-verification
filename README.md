@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,787 | 🐛 562 | 🌐 C++ | 📅 2026-10-03 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,789 | 🐛 563 | 🌐 C++ | 📅 2026-10-03 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,668 | 🐛 188 | 🌐 C++ | 📅 2026-10-03
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,670 | 🐛 186 | 🌐 C++ | 📅 2026-10-04
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 475 | 🐛 48 | 🌐 C++ | 📅 2026-10-03
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 475 | 🐛 48 | 🌐 C++ | 📅 2026-10-04
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,533 | 🐛 417 | 🌐 Python | 📅 2026-09-30
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,533 | 🐛 417 | 🌐 Python | 📅 2026-09-30
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,533 | 🐛 418 | 🌐 Python | 📅 2026-09-30
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,533 | 🐛 418 | 🌐 Python | 📅 2026-09-30
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -450,17 +450,17 @@ OSVVM is a VHDL verification framework, verification utility library, verificati
 
 The GitHub organisation includes verification components:
 
-* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-10-04
 
-* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-10-04
 
-* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-09-10
+* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 158 | 🐛 9 | 🌐 VHDL | 📅 2026-10-04
 
-* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 88 | 🐛 5 | 📅 2026-10-03
+* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 88 | 🐛 5 | 📅 2026-10-04
 
-* [UART - Transmitter and Receiver](https://github.com/OSVVM/UART) ⭐ 16 | 🐛 2 | 🌐 VHDL | 📅 2026-09-10
+* [UART - Transmitter and Receiver](https://github.com/OSVVM/UART) ⭐ 16 | 🐛 2 | 🌐 VHDL | 📅 2026-10-04
 
-* [DPRAM - Memory Model and Controller](https://github.com/OSVVM/DpRam) ⭐ 7 | 🐛 0 | 🌐 VHDL | 📅 2026-09-10
+* [DPRAM - Memory Model and Controller](https://github.com/OSVVM/DpRam) ⭐ 7 | 🐛 0 | 🌐 VHDL | 📅 2026-10-04
 
 * License: APACHE-2.0
 
@@ -527,7 +527,7 @@ Used as part of a Wishbone-AXI bus bridge, but usable with any AXI bus.
 There is a great blog post on it's use [here](https://zipcpu.com/formal/2018/12/28/axilite.html) from ZipCPU.
 It works with SymbiYosys.
 
-* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 705 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
+* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 706 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
 * Written in: Verilog
 * Write Testbenches In: Verilog
 * License: None specified
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,713 | 🐛 62 | 🌐 SystemVerilog | 📅 2026-09-24
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,714 | 🐛 62 | 🌐 SystemVerilog | 📅 2026-09-24
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,533 | 🐛 417 | 🌐 Python | 📅 2026-09-30 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,533 | 🐛 418 | 🌐 Python | 📅 2026-09-30 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-04._
