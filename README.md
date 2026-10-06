@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,790 | 🐛 567 | 🌐 C++ | 📅 2026-10-06 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,790 | 🐛 564 | 🌐 C++ | 📅 2026-10-06 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,667 | 🐛 188 | 🌐 C++ | 📅 2026-10-04
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,667 | 🐛 184 | 🌐 C++ | 📅 2026-10-06
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,469 | 🐛 155 | 🌐 Python | 📅 2026-09-25
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,469 | 🐛 155 | 🌐 Python | 📅 2026-09-25
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,470 | 🐛 155 | 🌐 Python | 📅 2026-09-25
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,470 | 🐛 155 | 🌐 Python | 📅 2026-09-25
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,469 | 🐛 155 | 🌐 Python | 📅 2026-09-25 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,470 | 🐛 155 | 🌐 Python | 📅 2026-09-25 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 22 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,534 | 🐛 422 | 🌐 Python | 📅 2026-10-05
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,534 | 🐛 422 | 🌐 Python | 📅 2026-10-05
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,534 | 🐛 420 | 🌐 Python | 📅 2026-10-06
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,534 | 🐛 420 | 🌐 Python | 📅 2026-10-06
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 847 | 🐛 277 | 🌐 VHDL | 📅 2026-10-03 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 847 | 🐛 278 | 🌐 VHDL | 📅 2026-10-03 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,534 | 🐛 422 | 🌐 Python | 📅 2026-10-05 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,534 | 🐛 420 | 🌐 Python | 📅 2026-10-06 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -621,8 +621,8 @@ efforts for their open source RISC-V CPUs. It's a good place
 to look at how a large verification project is planned and
 organised.
 
-* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 727 | 🐛 159 | 🌐 Assembly | 📅 2026-09-14
-* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 727 | 🐛 159 | 🌐 Assembly | 📅 2026-09-14
+* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 728 | 🐛 159 | 🌐 Assembly | 📅 2026-09-14
+* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 728 | 🐛 159 | 🌐 Assembly | 📅 2026-09-14
 * Verification Strategy Document: <https://core-v-docs-verif-strat.readthedocs.io/en/latest/>
 
 ### LowRISC Style Guides
