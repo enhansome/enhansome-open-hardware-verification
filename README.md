@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,801 | 🐛 565 | 🌐 C++ | 📅 2026-10-11 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,803 | 🐛 564 | 🌐 C++ | 📅 2026-10-12 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,672 | 🐛 210 | 🌐 C++ | 📅 2026-10-11
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,675 | 🐛 204 | 🌐 C++ | 📅 2026-10-12
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -214,7 +214,7 @@ similar projects.
 The project also has a Python generator, which, while less capable
 as of the time of this writing, can be run with FOSS HDL simulators.
 
-* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,364 | 🐛 170 | 🌐 Python | 📅 2026-09-21
+* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,365 | 🐛 170 | 🌐 Python | 📅 2026-09-21
 * License: Apache-2.0
 * Written In: SystemVerilog + UVM
 
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 476 | 🐛 48 | 🌐 C++ | 📅 2026-10-09
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 476 | 🐛 49 | 🌐 C++ | 📅 2026-10-09
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 471 | 🐛 23 | 🌐 Ruby | 📅 2026-09-11
+* Link: <https://github.com/rggen/rggen> ⭐ 471 | 🐛 24 | 🌐 Ruby | 📅 2026-09-11
 * License: MIT
 * Written in: Ruby
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 116 | 🐛 140 | 🌐 C++ | 📅 2026-10-11
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 116 | 🐛 136 | 🌐 C++ | 📅 2026-10-12
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 116 | 🐛 140 | 🌐 C++ | 📅 2026-10-11
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 116 | 🐛 136 | 🌐 C++ | 📅 2026-10-12
 * Written in: C++.
 
 **CBMC:**
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,139 | 🐛 818 | 🌐 C++ | 📅 2026-10-08
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,139 | 🐛 819 | 🌐 C++ | 📅 2026-10-12
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,139 | 🐛 818 | 🌐 C++ | 📅 2026-10-08
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,139 | 🐛 819 | 🌐 C++ | 📅 2026-10-12
 * Written in: C++.
 
 ### FuseSoC
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,538 | 🐛 416 | 🌐 Python | 📅 2026-10-09
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,538 | 🐛 416 | 🌐 Python | 📅 2026-10-09
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,539 | 🐛 418 | 🌐 Python | 📅 2026-10-12
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,539 | 🐛 418 | 🌐 Python | 📅 2026-10-12
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -397,8 +397,8 @@ Listed here are various cocotb plugins for common interfaces or modules:
 
 | Interface / Module                                                                                     | Author                                                       | License |
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
-| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 365 \| 🐛 65 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
-| [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 83 \| 🐛 6 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 365 \| 🐛 66 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 83 \| 🐛 7 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 213 \| 🐛 17 \| 🌐 Python \| 📅 2026-08-25   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 
 ### fvutils/pyvsc
@@ -416,8 +416,8 @@ Listed here are various cocotb plugins for common interfaces or modules:
 A re-usable formal verification framework for RISC-V CPU designs.
 Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
-* License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING) ⭐ 634 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
-* Link: <https://github.com/SymbioticEDA/riscv-formal> ⭐ 634 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
+* License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING) ⭐ 633 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
+* Link: <https://github.com/SymbioticEDA/riscv-formal> ⭐ 633 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
 * Written In: Verilog
 
 ### UVVM
@@ -426,9 +426,9 @@ Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
 There is also an accompanying library of user contributed VIPs: [UVVM\_Community\_VIPs](https://github.com/UVVM/UVVM_Community_VIPs) ⭐ 10 | 🐛 0 | 🌐 VHDL | 📅 2020-01-07.
 
-* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 466 | 🐛 23 | 🌐 VHDL | 📅 2026-04-22
-* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 466 | 🐛 23 | 🌐 VHDL | 📅 2026-04-22
-* Link: <https://github.com/UVVM/UVVM> ⭐ 466 | 🐛 23 | 🌐 VHDL | 📅 2026-04-22
+* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 466 | 🐛 25 | 🌐 VHDL | 📅 2026-04-22
+* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 466 | 🐛 25 | 🌐 VHDL | 📅 2026-04-22
+* Link: <https://github.com/UVVM/UVVM> ⭐ 466 | 🐛 25 | 🌐 VHDL | 📅 2026-04-22
 * Written In: VHDL
 * Write Testbenches In: VHDL
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 849 | 🐛 279 | 🌐 VHDL | 📅 2026-10-11 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 850 | 🐛 281 | 🌐 VHDL | 📅 2026-10-11 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,718 | 🐛 62 | 🌐 SystemVerilog | 📅 2026-09-24
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,721 | 🐛 62 | 🌐 SystemVerilog | 📅 2026-09-24
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,538 | 🐛 416 | 🌐 Python | 📅 2026-10-09 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,539 | 🐛 418 | 🌐 Python | 📅 2026-10-12 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -631,8 +631,8 @@ These are the style guides used by the
 [LowRISC project](https://www.lowrisc.org/)
 for writing both RTL and UVM based testbenches.
 
-* License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE) ⭐ 546 | 🐛 21 | 📅 2026-07-08
-* Link: <https://github.com/lowRISC/style-guides> ⭐ 546 | 🐛 21 | 📅 2026-07-08
+* License: [CC-BY-4.0](https://github.com/lowRISC/style-guides/blob/master/LICENSE) ⭐ 547 | 🐛 21 | 📅 2026-07-08
+* Link: <https://github.com/lowRISC/style-guides> ⭐ 547 | 🐛 21 | 📅 2026-07-08
 
 ## Conferences:
 
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-12._
