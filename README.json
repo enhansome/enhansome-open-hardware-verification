@@ -66,8 +66,8 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-23T01:52:54Z",
-                "open_issues": 219,
+                "last_commit": "2026-10-24T04:54:26Z",
+                "open_issues": 215,
                 "owner": "steveicarus",
                 "repo": "iverilog",
                 "stars": 3689,
@@ -515,7 +515,7 @@
                 "open_issues": 20,
                 "owner": "openhwfoundation",
                 "repo": "force-riscv",
-                "stars": 319,
+                "stars": 320,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -536,7 +536,7 @@
                 "open_issues": 20,
                 "owner": "openhwfoundation",
                 "repo": "force-riscv",
-                "stars": 319,
+                "stars": 320,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -625,8 +625,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-23T00:36:22Z",
-                "open_issues": 417,
+                "last_commit": "2026-10-24T17:39:16Z",
+                "open_issues": 415,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2551,
@@ -653,8 +653,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-23T00:36:22Z",
-                "open_issues": 417,
+                "last_commit": "2026-10-24T17:39:16Z",
+                "open_issues": 415,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2551,
@@ -1301,11 +1301,11 @@
                 "id": 26829379,
                 "language": "VHDL",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-23T19:04:01Z",
-                "open_issues": 283,
+                "last_commit": "2026-10-23T21:57:19Z",
+                "open_issues": 282,
                 "owner": "VUnit",
                 "repo": "vunit",
-                "stars": 852,
+                "stars": 853,
                 "topics": [
                   "asic",
                   "fpga",
@@ -1388,8 +1388,8 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-22T03:06:40Z",
-                "open_issues": 127,
+                "last_commit": "2026-10-24T15:17:02Z",
+                "open_issues": 125,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 495,
@@ -1418,8 +1418,8 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-22T03:06:40Z",
-                "open_issues": 127,
+                "last_commit": "2026-10-24T15:17:02Z",
+                "open_issues": 125,
                 "owner": "intel",
                 "repo": "rohd",
                 "stars": 495,
@@ -1614,7 +1614,7 @@
                 "language": "SystemVerilog",
                 "license": "NOASSERTION",
                 "last_commit": "2026-09-24T16:11:10Z",
-                "open_issues": 62,
+                "open_issues": 63,
                 "owner": "pulp-platform",
                 "repo": "axi",
                 "stars": 1734,
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 550,
+                "stars": 551,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 550,
+                "stars": 551,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-23T19:10:29.569Z",
+    "last_updated": "2026-10-24T18:06:12.657Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
