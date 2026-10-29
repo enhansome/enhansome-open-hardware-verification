@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,852 | 🐛 589 | 🌐 C++ | 📅 2026-10-28 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,854 | 🐛 590 | 🌐 C++ | 📅 2026-10-29 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,702 | 🐛 217 | 🌐 C++ | 📅 2026-10-28
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,704 | 🐛 209 | 🌐 C++ | 📅 2026-10-29
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 476 | 🐛 48 | 🌐 C++ | 📅 2026-10-27
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 476 | 🐛 47 | 🌐 C++ | 📅 2026-10-28
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 473 | 🐛 23 | 🌐 Ruby | 📅 2026-09-11
+* Link: <https://github.com/rggen/rggen> ⭐ 474 | 🐛 23 | 🌐 Ruby | 📅 2026-09-11
 * License: MIT
 * Written in: Ruby
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 117 | 🐛 151 | 🌐 C++ | 📅 2026-10-28
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 117 | 🐛 149 | 🌐 C++ | 📅 2026-10-29
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 117 | 🐛 151 | 🌐 C++ | 📅 2026-10-28
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 117 | 🐛 149 | 🌐 C++ | 📅 2026-10-29
 * Written in: C++.
 
 **CBMC:**
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,153 | 🐛 989 | 🌐 C++ | 📅 2026-10-28
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,154 | 🐛 991 | 🌐 C++ | 📅 2026-10-29
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,153 | 🐛 989 | 🌐 C++ | 📅 2026-10-28
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,154 | 🐛 991 | 🌐 C++ | 📅 2026-10-29
 * Written in: C++.
 
 ### FuseSoC
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,559 | 🐛 406 | 🌐 Python | 📅 2026-10-27
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,559 | 🐛 406 | 🌐 Python | 📅 2026-10-27
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,559 | 🐛 402 | 🌐 Python | 📅 2026-10-29
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,559 | 🐛 402 | 🌐 Python | 📅 2026-10-29
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -426,9 +426,9 @@ Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
 There is also an accompanying library of user contributed VIPs: [UVVM\_Community\_VIPs](https://github.com/UVVM/UVVM_Community_VIPs) ⭐ 10 | 🐛 0 | 🌐 VHDL | 📅 2020-01-07.
 
-* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 467 | 🐛 8 | 🌐 VHDL | 📅 2026-10-27
-* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 467 | 🐛 8 | 🌐 VHDL | 📅 2026-10-27
-* Link: <https://github.com/UVVM/UVVM> ⭐ 467 | 🐛 8 | 🌐 VHDL | 📅 2026-10-27
+* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 467 | 🐛 7 | 🌐 VHDL | 📅 2026-10-29
+* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 467 | 🐛 7 | 🌐 VHDL | 📅 2026-10-29
+* Link: <https://github.com/UVVM/UVVM> ⭐ 467 | 🐛 7 | 🌐 VHDL | 📅 2026-10-29
 * Written In: VHDL
 * Write Testbenches In: VHDL
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 854 | 🐛 284 | 🌐 VHDL | 📅 2026-10-23 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 854 | 🐛 282 | 🌐 VHDL | 📅 2026-10-29 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,738 | 🐛 65 | 🌐 SystemVerilog | 📅 2026-09-24
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,739 | 🐛 65 | 🌐 SystemVerilog | 📅 2026-10-29
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,559 | 🐛 406 | 🌐 Python | 📅 2026-10-27 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,559 | 🐛 402 | 🌐 Python | 📅 2026-10-29 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-28._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-29._
