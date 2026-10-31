@@ -66,11 +66,11 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-30T04:16:52Z",
-                "open_issues": 207,
+                "last_commit": "2026-10-31T18:04:06Z",
+                "open_issues": 206,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3705,
+                "stars": 3708,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -102,7 +102,7 @@
             "open_issues": 171,
             "owner": "chipsalliance",
             "repo": "riscv-dv",
-            "stars": 1373,
+            "stars": 1375,
             "topics": []
           },
           "first_seen": "2026-08-29T00:00:33.102Z"
@@ -264,7 +264,7 @@
                 "open_issues": 23,
                 "owner": "rggen",
                 "repo": "rggen",
-                "stars": 475,
+                "stars": 476,
                 "topics": [
                   "amba",
                   "apb",
@@ -358,8 +358,8 @@
                 "id": 51877056,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-29T17:48:15Z",
-                "open_issues": 997,
+                "last_commit": "2026-10-30T20:57:02Z",
+                "open_issues": 999,
                 "owner": "diffblue",
                 "repo": "cbmc",
                 "stars": 1156,
@@ -384,8 +384,8 @@
                     "id": 51877056,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-29T17:48:15Z",
-                    "open_issues": 997,
+                    "last_commit": "2026-10-30T20:57:02Z",
+                    "open_issues": 999,
                     "owner": "diffblue",
                     "repo": "cbmc",
                     "stars": 1156,
@@ -418,7 +418,7 @@
                 "open_issues": 154,
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1478,
+                "stars": 1479,
                 "topics": [
                   "eda",
                   "fpga",
@@ -447,7 +447,7 @@
                 "open_issues": 154,
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1478,
+                "stars": 1479,
                 "topics": [
                   "eda",
                   "fpga",
@@ -1581,7 +1581,7 @@
                 "open_issues": 8,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-axi",
-                "stars": 481,
+                "stars": 483,
                 "topics": [
                   "amba",
                   "amba-axi",
@@ -1617,7 +1617,7 @@
                 "open_issues": 65,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1739,
+                "stars": 1742,
                 "topics": [
                   "asic",
                   "axi",
@@ -1656,7 +1656,7 @@
                 "open_issues": 1,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-apb",
-                "stars": 35,
+                "stars": 36,
                 "topics": [
                   "amba",
                   "apb",
@@ -1690,7 +1690,7 @@
                 "open_issues": 6,
                 "owner": "antmicro",
                 "repo": "usb-test-suite-build",
-                "stars": 53,
+                "stars": 54,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1721,10 +1721,10 @@
                 "language": "Assembly",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-28T17:30:51Z",
-                "open_issues": 165,
+                "open_issues": 166,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 735,
+                "stars": 736,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1747,10 +1747,10 @@
                 "language": "Assembly",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-28T17:30:51Z",
-                "open_issues": 165,
+                "open_issues": 166,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 735,
+                "stars": 736,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-30T19:55:32.310Z",
+    "last_updated": "2026-10-31T19:15:26.446Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
@@ -1831,7 +1831,7 @@
       "open_issues": 5,
       "owner": "ben-marshall",
       "repo": "awesome-open-hardware-verification",
-      "stars": 633,
+      "stars": 634,
       "topics": [
         "awesome",
         "awesome-list",

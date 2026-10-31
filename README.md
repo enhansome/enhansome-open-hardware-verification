@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,855 | 🐛 594 | 🌐 C++ | 📅 2026-10-30 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,857 | 🐛 597 | 🌐 C++ | 📅 2026-10-31 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,705 | 🐛 207 | 🌐 C++ | 📅 2026-10-30
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,708 | 🐛 206 | 🌐 C++ | 📅 2026-10-31
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -214,7 +214,7 @@ similar projects.
 The project also has a Python generator, which, while less capable
 as of the time of this writing, can be run with FOSS HDL simulators.
 
-* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,373 | 🐛 171 | 🌐 Python | 📅 2026-10-28
+* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,375 | 🐛 171 | 🌐 Python | 📅 2026-10-28
 * License: Apache-2.0
 * Written In: SystemVerilog + UVM
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 475 | 🐛 23 | 🌐 Ruby | 📅 2026-09-11
+* Link: <https://github.com/rggen/rggen> ⭐ 476 | 🐛 23 | 🌐 Ruby | 📅 2026-09-11
 * License: MIT
 * Written in: Ruby
 
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,156 | 🐛 997 | 🌐 C++ | 📅 2026-10-29
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,156 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,156 | 🐛 997 | 🌐 C++ | 📅 2026-10-29
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,156 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
 * Written in: C++.
 
 ### FuseSoC
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,478 | 🐛 154 | 🌐 Python | 📅 2026-10-23
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,478 | 🐛 154 | 🌐 Python | 📅 2026-10-23
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,479 | 🐛 154 | 🌐 Python | 📅 2026-10-23
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,479 | 🐛 154 | 🌐 Python | 📅 2026-10-23
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,478 | 🐛 154 | 🌐 Python | 📅 2026-10-23 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,479 | 🐛 154 | 🌐 Python | 📅 2026-10-23 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 22 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -539,7 +539,7 @@ Supports master and slave agents, AXI4 and AXI4-Lite protocols.
 Configurable address/data/id widths.
 Supports in/out-of-order responses, delayed responses and read interleaving.
 
-* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 481 | 🐛 8 | 🌐 SystemVerilog | 📅 2026-10-01
+* Link: <https://github.com/taichi-ishitani/tvip-axi> ⭐ 483 | 🐛 8 | 🌐 SystemVerilog | 📅 2026-10-01
 * Written in: SystemVerilog and UVM
 * License: Apache-2.0
 
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,739 | 🐛 65 | 🌐 SystemVerilog | 📅 2026-10-29
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,742 | 🐛 65 | 🌐 SystemVerilog | 📅 2026-10-29
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -560,7 +560,7 @@ implementation and verification of custom AXI modules.
 
 Bus function model for AMBA APB protocol
 
-* Link: <https://github.com/taichi-ishitani/tvip-apb> ⭐ 35 | 🐛 1 | 🌐 SystemVerilog | 📅 2023-11-07
+* Link: <https://github.com/taichi-ishitani/tvip-apb> ⭐ 36 | 🐛 1 | 🌐 SystemVerilog | 📅 2023-11-07
 * Written in: SystemVerilog and UVM
 * License: Apache-2.0
 
@@ -571,7 +571,7 @@ USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
 
-* Link: <https://github.com/antmicro/usb-test-suite-build> ⭐ 53 | 🐛 6 | 🌐 Shell | 📅 2023-08-07
+* Link: <https://github.com/antmicro/usb-test-suite-build> ⭐ 54 | 🐛 6 | 🌐 Shell | 📅 2023-08-07
 * Written in: Cocotb / Python 3
 * License: Apache-2.0
 
@@ -621,8 +621,8 @@ efforts for their open source RISC-V CPUs. It's a good place
 to look at how a large verification project is planned and
 organised.
 
-* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 735 | 🐛 165 | 🌐 Assembly | 📅 2026-10-28
-* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 735 | 🐛 165 | 🌐 Assembly | 📅 2026-10-28
+* Github Link: <https://github.com/openhwgroup/core-v-verif> ⭐ 736 | 🐛 166 | 🌐 Assembly | 📅 2026-10-28
+* License: [Solderpad V2](https://github.com/openhwgroup/core-v-verif/blob/master/LICENSE.md) ⭐ 736 | 🐛 166 | 🌐 Assembly | 📅 2026-10-28
 * Verification Strategy Document: <https://core-v-docs-verif-strat.readthedocs.io/en/latest/>
 
 ### LowRISC Style Guides
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-30._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-31._
