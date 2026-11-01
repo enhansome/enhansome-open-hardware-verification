@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,857 | 🐛 597 | 🌐 C++ | 📅 2026-10-31 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,857 | 🐛 598 | 🌐 C++ | 📅 2026-11-01 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,708 | 🐛 206 | 🌐 C++ | 📅 2026-10-31
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,710 | 🐛 206 | 🌐 C++ | 📅 2026-11-01
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -230,7 +230,7 @@ as of the time of this writing, can be run with FOSS HDL simulators.
 
 An open source, MIT licensed SystemVerilog linting tool. Built on top of an open source [SystemVerilog parser](#sv-parser).
 
-* Link: <https://github.com/dalance/svlint> ⭐ 394 | 🐛 25 | 🌐 Rust | 📅 2025-11-06
+* Link: <https://github.com/dalance/svlint> ⭐ 395 | 🐛 25 | 🌐 Rust | 📅 2025-11-06
 * License: MIT
 * Written In: Rust
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 117 | 🐛 146 | 🌐 C++ | 📅 2026-10-30
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 117 | 🐛 145 | 🌐 C++ | 📅 2026-10-31
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 117 | 🐛 146 | 🌐 C++ | 📅 2026-10-30
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 117 | 🐛 145 | 🌐 C++ | 📅 2026-10-31
 * Written in: C++.
 
 **CBMC:**
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,156 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,157 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,156 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,157 | 🐛 999 | 🌐 C++ | 📅 2026-10-30
 * Written in: C++.
 
 ### FuseSoC
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,558 | 🐛 401 | 🌐 Python | 📅 2026-10-30
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,558 | 🐛 401 | 🌐 Python | 📅 2026-10-30
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,558 | 🐛 400 | 🌐 Python | 📅 2026-10-31
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,558 | 🐛 400 | 🌐 Python | 📅 2026-10-31
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 853 | 🐛 282 | 🌐 VHDL | 📅 2026-10-29 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 853 | 🐛 283 | 🌐 VHDL | 📅 2026-10-29 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -527,7 +527,7 @@ Used as part of a Wishbone-AXI bus bridge, but usable with any AXI bus.
 There is a great blog post on it's use [here](https://zipcpu.com/formal/2018/12/28/axilite.html) from ZipCPU.
 It works with SymbiYosys.
 
-* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 714 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
+* Link: <https://github.com/ZipCPU/wb2axip/blob/master/bench/formal/faxil_slave.v> ⭐ 713 | 🐛 7 | 🌐 Verilog | 📅 2026-09-11
 * Written in: Verilog
 * Write Testbenches In: Verilog
 * License: None specified
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,558 | 🐛 401 | 🌐 Python | 📅 2026-10-30 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,558 | 🐛 400 | 🌐 Python | 📅 2026-10-31 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-31._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-01._

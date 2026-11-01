@@ -66,11 +66,11 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-10-31T18:04:06Z",
+                "last_commit": "2026-11-01T19:37:54Z",
                 "open_issues": 206,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3708,
+                "stars": 3710,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -153,7 +153,7 @@
                 "open_issues": 25,
                 "owner": "dalance",
                 "repo": "svlint",
-                "stars": 394,
+                "stars": 395,
                 "topics": [
                   "lint",
                   "linter",
@@ -309,8 +309,8 @@
                 "id": 89927379,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-30T17:02:23Z",
-                "open_issues": 146,
+                "last_commit": "2026-10-31T19:38:24Z",
+                "open_issues": 145,
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 117,
@@ -335,8 +335,8 @@
                     "id": 89927379,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-10-30T17:02:23Z",
-                    "open_issues": 146,
+                    "last_commit": "2026-10-31T19:38:24Z",
+                    "open_issues": 145,
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 117,
@@ -362,7 +362,7 @@
                 "open_issues": 999,
                 "owner": "diffblue",
                 "repo": "cbmc",
-                "stars": 1156,
+                "stars": 1157,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -388,7 +388,7 @@
                     "open_issues": 999,
                     "owner": "diffblue",
                     "repo": "cbmc",
-                    "stars": 1156,
+                    "stars": 1157,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -625,8 +625,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-30T15:05:04Z",
-                "open_issues": 401,
+                "last_commit": "2026-10-31T20:31:31Z",
+                "open_issues": 400,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2558,
@@ -653,8 +653,8 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-10-30T15:05:04Z",
-                "open_issues": 401,
+                "last_commit": "2026-10-31T20:31:31Z",
+                "open_issues": 400,
                 "owner": "cocotb",
                 "repo": "cocotb",
                 "stars": 2558,
@@ -1302,7 +1302,7 @@
                 "language": "VHDL",
                 "license": "NOASSERTION",
                 "last_commit": "2026-10-29T12:08:33Z",
-                "open_issues": 282,
+                "open_issues": 283,
                 "owner": "VUnit",
                 "repo": "vunit",
                 "stars": 853,
@@ -1545,7 +1545,7 @@
                 "open_issues": 7,
                 "owner": "ZipCPU",
                 "repo": "wb2axip",
-                "stars": 714,
+                "stars": 713,
                 "topics": [
                   "axi-bus",
                   "fpga",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-31T19:15:26.446Z",
+    "last_updated": "2026-11-01T19:38:00.694Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
