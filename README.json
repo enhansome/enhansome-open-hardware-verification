@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "YosysHQ",
                 "repo": "mcy",
-                "stars": 103,
+                "stars": 105,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -42,7 +42,7 @@
                 "open_issues": 2,
                 "owner": "YosysHQ",
                 "repo": "mcy",
-                "stars": 103,
+                "stars": 105,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -66,11 +66,11 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-11T05:16:11Z",
-                "open_issues": 208,
+                "last_commit": "2026-11-12T16:08:33Z",
+                "open_issues": 207,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3736,
+                "stars": 3737,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -217,8 +217,8 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T03:35:32Z",
-                "open_issues": 48,
+                "last_commit": "2026-11-12T02:59:42Z",
+                "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
                 "stars": 480,
@@ -309,8 +309,8 @@
                 "id": 89927379,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-11T21:41:33Z",
-                "open_issues": 133,
+                "last_commit": "2026-11-12T20:46:07Z",
+                "open_issues": 131,
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
                 "stars": 119,
@@ -335,8 +335,8 @@
                     "id": 89927379,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-11T21:41:33Z",
-                    "open_issues": 133,
+                    "last_commit": "2026-11-12T20:46:07Z",
+                    "open_issues": 131,
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
                     "stars": 119,
@@ -359,7 +359,7 @@
                 "language": "C++",
                 "license": "NOASSERTION",
                 "last_commit": "2026-11-10T19:02:21Z",
-                "open_issues": 1021,
+                "open_issues": 1035,
                 "owner": "diffblue",
                 "repo": "cbmc",
                 "stars": 1168,
@@ -385,7 +385,7 @@
                     "language": "C++",
                     "license": "NOASSERTION",
                     "last_commit": "2026-11-10T19:02:21Z",
-                    "open_issues": 1021,
+                    "open_issues": 1035,
                     "owner": "diffblue",
                     "repo": "cbmc",
                     "stars": 1168,
@@ -625,11 +625,11 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-11T05:23:54Z",
+                "last_commit": "2026-11-12T17:36:52Z",
                 "open_issues": 401,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2573,
+                "stars": 2577,
                 "topics": [
                   "python",
                   "test",
@@ -653,11 +653,11 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-11T05:23:54Z",
+                "last_commit": "2026-11-12T17:36:52Z",
                 "open_issues": 401,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2573,
+                "stars": 2577,
                 "topics": [
                   "python",
                   "test",
@@ -988,7 +988,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 468,
+                "stars": 466,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1009,7 +1009,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 468,
+                "stars": 466,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1030,7 +1030,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 468,
+                "stars": 466,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1305,7 +1305,7 @@
                 "open_issues": 281,
                 "owner": "VUnit",
                 "repo": "vunit",
-                "stars": 854,
+                "stars": 850,
                 "topics": [
                   "asic",
                   "fpga",
@@ -1388,11 +1388,11 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-11T15:39:26Z",
+                "last_commit": "2026-11-11T22:58:31Z",
                 "open_issues": 62,
                 "owner": "intel",
                 "repo": "rohd",
-                "stars": 497,
+                "stars": 496,
                 "topics": [
                   "framework",
                   "hardware",
@@ -1418,11 +1418,11 @@
                 "id": 409325108,
                 "language": "Dart",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-11T15:39:26Z",
+                "last_commit": "2026-11-11T22:58:31Z",
                 "open_issues": 62,
                 "owner": "intel",
                 "repo": "rohd",
-                "stars": 497,
+                "stars": 496,
                 "topics": [
                   "framework",
                   "hardware",
@@ -1613,11 +1613,11 @@
                 "id": 129229399,
                 "language": "SystemVerilog",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-11T11:19:42Z",
-                "open_issues": 69,
+                "last_commit": "2026-11-12T19:54:19Z",
+                "open_issues": 71,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1751,
+                "stars": 1754,
                 "topics": [
                   "asic",
                   "axi",
@@ -1724,7 +1724,7 @@
                 "open_issues": 173,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 740,
+                "stars": 741,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 173,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 740,
+                "stars": 741,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-11T21:54:37.347Z",
+    "last_updated": "2026-11-12T21:49:44.679Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
