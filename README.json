@@ -21,7 +21,7 @@
                 "open_issues": 2,
                 "owner": "YosysHQ",
                 "repo": "mcy",
-                "stars": 105,
+                "stars": 106,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -42,7 +42,7 @@
                 "open_issues": 2,
                 "owner": "YosysHQ",
                 "repo": "mcy",
-                "stars": 105,
+                "stars": 106,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -66,11 +66,11 @@
                 "id": 16267,
                 "language": "C++",
                 "license": "GPL-2.0",
-                "last_commit": "2026-11-13T02:22:40Z",
-                "open_issues": 209,
+                "last_commit": "2026-11-14T19:40:35Z",
+                "open_issues": 207,
                 "owner": "steveicarus",
                 "repo": "iverilog",
-                "stars": 3737,
+                "stars": 3741,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -125,7 +125,7 @@
                 "open_issues": 0,
                 "owner": "anders-code",
                 "repo": "verilog-covered",
-                "stars": 9,
+                "stars": 10,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -153,7 +153,7 @@
                 "open_issues": 25,
                 "owner": "dalance",
                 "repo": "svlint",
-                "stars": 396,
+                "stars": 397,
                 "topics": [
                   "lint",
                   "linter",
@@ -187,7 +187,7 @@
                 "open_issues": 42,
                 "owner": "dalance",
                 "repo": "sv-parser",
-                "stars": 485,
+                "stars": 486,
                 "topics": [
                   "parser",
                   "rust",
@@ -217,11 +217,11 @@
                 "id": 218417034,
                 "language": "C++",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-13T17:45:10Z",
+                "last_commit": "2026-11-14T07:27:28Z",
                 "open_issues": 47,
                 "owner": "chipsalliance",
                 "repo": "Surelog",
-                "stars": 480,
+                "stars": 481,
                 "topics": [
                   "antlr",
                   "antlr4-grammar",
@@ -264,7 +264,7 @@
                 "open_issues": 22,
                 "owner": "rggen",
                 "repo": "rggen",
-                "stars": 478,
+                "stars": 479,
                 "topics": [
                   "amba",
                   "apb",
@@ -309,11 +309,11 @@
                 "id": 89927379,
                 "language": "C++",
                 "license": "NOASSERTION",
-                "last_commit": "2026-11-13T18:56:48Z",
+                "last_commit": "2026-11-13T22:37:08Z",
                 "open_issues": 127,
                 "owner": "diffblue",
                 "repo": "hw-cbmc",
-                "stars": 119,
+                "stars": 120,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -335,11 +335,11 @@
                     "id": 89927379,
                     "language": "C++",
                     "license": "NOASSERTION",
-                    "last_commit": "2026-11-13T18:56:48Z",
+                    "last_commit": "2026-11-13T22:37:08Z",
                     "open_issues": 127,
                     "owner": "diffblue",
                     "repo": "hw-cbmc",
-                    "stars": 119,
+                    "stars": 120,
                     "topics": []
                   },
                   "first_seen": "2026-08-29T00:00:33.102Z"
@@ -359,7 +359,7 @@
                 "language": "C++",
                 "license": "NOASSERTION",
                 "last_commit": "2026-11-13T16:23:10Z",
-                "open_issues": 1056,
+                "open_issues": 1058,
                 "owner": "diffblue",
                 "repo": "cbmc",
                 "stars": 1168,
@@ -385,7 +385,7 @@
                     "language": "C++",
                     "license": "NOASSERTION",
                     "last_commit": "2026-11-13T16:23:10Z",
-                    "open_issues": 1056,
+                    "open_issues": 1058,
                     "owner": "diffblue",
                     "repo": "cbmc",
                     "stars": 1168,
@@ -418,7 +418,7 @@
                 "open_issues": 159,
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1487,
+                "stars": 1488,
                 "topics": [
                   "eda",
                   "fpga",
@@ -447,7 +447,7 @@
                 "open_issues": 159,
                 "owner": "olofk",
                 "repo": "fusesoc",
-                "stars": 1487,
+                "stars": 1488,
                 "topics": [
                   "eda",
                   "fpga",
@@ -483,7 +483,7 @@
                 "open_issues": 1,
                 "owner": "m-kru",
                 "repo": "fsva",
-                "stars": 22,
+                "stars": 23,
                 "topics": [
                   "fpga",
                   "fusesoc",
@@ -515,7 +515,7 @@
                 "open_issues": 20,
                 "owner": "openhwfoundation",
                 "repo": "force-riscv",
-                "stars": 323,
+                "stars": 324,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -536,7 +536,7 @@
                 "open_issues": 20,
                 "owner": "openhwfoundation",
                 "repo": "force-riscv",
-                "stars": 323,
+                "stars": 324,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -625,11 +625,11 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-12T17:36:52Z",
+                "last_commit": "2026-11-14T03:20:31Z",
                 "open_issues": 401,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2577,
+                "stars": 2579,
                 "topics": [
                   "python",
                   "test",
@@ -653,11 +653,11 @@
                 "id": 10651005,
                 "language": "Python",
                 "license": "BSD-3-Clause",
-                "last_commit": "2026-11-12T17:36:52Z",
+                "last_commit": "2026-11-14T03:20:31Z",
                 "open_issues": 401,
                 "owner": "cocotb",
                 "repo": "cocotb",
-                "stars": 2577,
+                "stars": 2579,
                 "topics": [
                   "python",
                   "test",
@@ -692,7 +692,7 @@
                 "open_issues": 5,
                 "owner": "tpoikela",
                 "repo": "uvm-python",
-                "stars": 262,
+                "stars": 263,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -713,7 +713,7 @@
                 "open_issues": 5,
                 "owner": "tpoikela",
                 "repo": "uvm-python",
-                "stars": 262,
+                "stars": 263,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -800,7 +800,7 @@
                 "open_issues": 68,
                 "owner": "alexforencich",
                 "repo": "cocotbext-axi",
-                "stars": 369,
+                "stars": 370,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -821,7 +821,7 @@
                 "open_issues": 8,
                 "owner": "alexforencich",
                 "repo": "cocotbext-eth",
-                "stars": 83,
+                "stars": 84,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -842,7 +842,7 @@
                 "open_issues": 18,
                 "owner": "alexforencich",
                 "repo": "cocotbext-pcie",
-                "stars": 215,
+                "stars": 216,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -870,7 +870,7 @@
                 "open_issues": 51,
                 "owner": "fvutils",
                 "repo": "pyvsc",
-                "stars": 149,
+                "stars": 150,
                 "topics": [
                   "cocotb",
                   "constrained-random",
@@ -901,7 +901,7 @@
                 "open_issues": 51,
                 "owner": "fvutils",
                 "repo": "pyvsc",
-                "stars": 149,
+                "stars": 150,
                 "topics": [
                   "cocotb",
                   "constrained-random",
@@ -939,7 +939,7 @@
                 "open_issues": 24,
                 "owner": "SymbioticEDA",
                 "repo": "riscv-formal",
-                "stars": 635,
+                "stars": 636,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -960,7 +960,7 @@
                 "open_issues": 24,
                 "owner": "SymbioticEDA",
                 "repo": "riscv-formal",
-                "stars": 635,
+                "stars": 636,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -988,7 +988,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 466,
+                "stars": 467,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1009,7 +1009,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 466,
+                "stars": 467,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1030,7 +1030,7 @@
                 "open_issues": 7,
                 "owner": "UVVM",
                 "repo": "UVVM",
-                "stars": 466,
+                "stars": 467,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1058,7 +1058,7 @@
                 "open_issues": 8,
                 "owner": "chiselverify",
                 "repo": "chiselverify",
-                "stars": 163,
+                "stars": 164,
                 "topics": [
                   "bus-functional-model",
                   "chisel",
@@ -1090,7 +1090,7 @@
                 "open_issues": 8,
                 "owner": "chiselverify",
                 "repo": "chiselverify",
-                "stars": 163,
+                "stars": 164,
                 "topics": [
                   "bus-functional-model",
                   "chisel",
@@ -1231,7 +1231,7 @@
                 "open_issues": 5,
                 "owner": "OSVVM",
                 "repo": "OsvvmLibraries",
-                "stars": 88,
+                "stars": 89,
                 "topics": [
                   "osvvm",
                   "verification",
@@ -1343,7 +1343,7 @@
                 "open_issues": 4,
                 "owner": "chengyinwu",
                 "repo": "V3",
-                "stars": 17,
+                "stars": 18,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1364,7 +1364,7 @@
                 "open_issues": 4,
                 "owner": "chengyinwu",
                 "repo": "V3",
-                "stars": 17,
+                "stars": 18,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1452,7 +1452,7 @@
                 "open_issues": 5,
                 "owner": "intel",
                 "repo": "rohd-vf",
-                "stars": 48,
+                "stars": 49,
                 "topics": [
                   "framework",
                   "hardware",
@@ -1478,7 +1478,7 @@
                 "open_issues": 5,
                 "owner": "intel",
                 "repo": "rohd-vf",
-                "stars": 48,
+                "stars": 49,
                 "topics": [
                   "framework",
                   "hardware",
@@ -1517,7 +1517,7 @@
                 "open_issues": 4,
                 "owner": "funningboy",
                 "repo": "uvm_axi",
-                "stars": 274,
+                "stars": 275,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1581,7 +1581,7 @@
                 "open_issues": 8,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-axi",
-                "stars": 484,
+                "stars": 485,
                 "topics": [
                   "amba",
                   "amba-axi",
@@ -1617,7 +1617,7 @@
                 "open_issues": 71,
                 "owner": "pulp-platform",
                 "repo": "axi",
-                "stars": 1756,
+                "stars": 1758,
                 "topics": [
                   "asic",
                   "axi",
@@ -1656,7 +1656,7 @@
                 "open_issues": 1,
                 "owner": "taichi-ishitani",
                 "repo": "tvip-apb",
-                "stars": 36,
+                "stars": 37,
                 "topics": [
                   "amba",
                   "apb",
@@ -1690,7 +1690,7 @@
                 "open_issues": 6,
                 "owner": "antmicro",
                 "repo": "usb-test-suite-build",
-                "stars": 55,
+                "stars": 56,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1724,7 +1724,7 @@
                 "open_issues": 173,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 741,
+                "stars": 742,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1750,7 +1750,7 @@
                 "open_issues": 173,
                 "owner": "openhwfoundation",
                 "repo": "core-v-verif",
-                "stars": 741,
+                "stars": 742,
                 "topics": [
                   "risc-v",
                   "systemverilog",
@@ -1783,7 +1783,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 554,
+                "stars": 555,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1804,7 +1804,7 @@
                 "open_issues": 21,
                 "owner": "lowRISC",
                 "repo": "style-guides",
-                "stars": 554,
+                "stars": 555,
                 "topics": []
               },
               "first_seen": "2026-08-29T00:00:33.102Z"
@@ -1819,7 +1819,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-13T21:24:47.733Z",
+    "last_updated": "2026-11-14T19:54:43.997Z",
     "original_repository_info": {
       "archived": false,
       "description": "A List of Free and Open Source Hardware Verification Tools and Frameworks",
