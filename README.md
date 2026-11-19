@@ -31,7 +31,7 @@ design verification.
 
 If you're after hardware *design* tools, these awesome lists are a good place to start:
 
-* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,184 | 🐛 4 | 📅 2026-10-27
+* [awesome-hdl](https://github.com/drom/awesome-hdl) ⭐ 1,183 | 🐛 4 | 📅 2026-10-27
 
 Further, entries in this list should not only be open source themselves, but *be usable* by
 people developing open source hardware using open source tools. For example, if company `X`
@@ -95,7 +95,7 @@ when I get the time to remember how Github Pages works.
 * [OSVVM](#osvvm)
 * [VUnit](#vunit)
 * [V3](#v3)
-* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 64 | 🌐 Dart | 📅 2026-11-17 for building and executing testbenches.
+* [ROHD Verification Framework](#rohd-verification-framework) - Hardware verification framework upon [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 65 | 🌐 Dart | 📅 2026-11-19 for building and executing testbenches.
 
 ### Components / VIPs
 
@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,905 | 🐛 596 | 🌐 C++ | 📅 2026-11-18 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,909 | 🐛 597 | 🌐 C++ | 📅 2026-11-19 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,745 | 🐛 217 | 🌐 C++ | 📅 2026-11-18
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,747 | 🐛 208 | 🌐 Verilog | 📅 2026-11-19
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -214,7 +214,7 @@ similar projects.
 The project also has a Python generator, which, while less capable
 as of the time of this writing, can be run with FOSS HDL simulators.
 
-* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,379 | 🐛 171 | 🌐 Python | 📅 2026-10-28
+* Link: <https://github.com/chipsalliance/riscv-dv> ⭐ 1,380 | 🐛 171 | 🌐 Python | 📅 2026-10-28
 * License: Apache-2.0
 * Written In: SystemVerilog + UVM
 
@@ -230,7 +230,7 @@ as of the time of this writing, can be run with FOSS HDL simulators.
 
 An open source, MIT licensed SystemVerilog linting tool. Built on top of an open source [SystemVerilog parser](#sv-parser).
 
-* Link: <https://github.com/dalance/svlint> ⭐ 398 | 🐛 25 | 🌐 Rust | 📅 2025-11-06
+* Link: <https://github.com/dalance/svlint> ⭐ 395 | 🐛 25 | 🌐 Rust | 📅 2025-11-06
 * License: MIT
 * Written In: Rust
 
@@ -238,7 +238,7 @@ An open source, MIT licensed SystemVerilog linting tool. Built on top of an open
 
 An open source, MIT/Apache licensed SystemVerilog parser/ Useful for quickly building custom tools / checkers.
 
-* Link: <https://github.com/dalance/sv-parser> ⭐ 487 | 🐛 42 | 🌐 Rust | 📅 2026-06-10
+* Link: <https://github.com/dalance/sv-parser> ⭐ 482 | 🐛 42 | 🌐 Rust | 📅 2026-06-10
 * License: MIT / Apache
 * Written In: Rust
 
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 482 | 🐛 48 | 🌐 C++ | 📅 2026-11-17
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 481 | 🐛 47 | 🌐 C++ | 📅 2026-11-18
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 479 | 🐛 22 | 🌐 Ruby | 📅 2026-09-11
+* Link: <https://github.com/rggen/rggen> ⭐ 478 | 🐛 22 | 🌐 Ruby | 📅 2026-09-11
 * License: MIT
 * Written in: Ruby
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 120 | 🐛 128 | 🌐 C++ | 📅 2026-11-15
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 120 | 🐛 127 | 🌐 C++ | 📅 2026-11-19
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 120 | 🐛 128 | 🌐 C++ | 📅 2026-11-15
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 120 | 🐛 127 | 🌐 C++ | 📅 2026-11-19
 * Written in: C++.
 
 **CBMC:**
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,175 | 🐛 1,064 | 🌐 C++ | 📅 2026-11-18
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,175 | 🐛 1,078 | 🌐 C++ | 📅 2026-11-19
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,175 | 🐛 1,064 | 🌐 C++ | 📅 2026-11-18
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,175 | 🐛 1,078 | 🌐 C++ | 📅 2026-11-19
 * Written in: C++.
 
 ### FuseSoC
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,490 | 🐛 153 | 🌐 Python | 📅 2026-11-18
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,490 | 🐛 153 | 🌐 Python | 📅 2026-11-18
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,489 | 🐛 145 | 🌐 Python | 📅 2026-11-18
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,489 | 🐛 145 | 🌐 Python | 📅 2026-11-18
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,490 | 🐛 153 | 🌐 Python | 📅 2026-11-18 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,489 | 🐛 145 | 🌐 Python | 📅 2026-11-18 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 23 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -358,8 +358,8 @@ Details:
 
 *"cocotb is a coroutine based cosimulation library for writing VHDL and Verilog testbenches in Python."*
 
-* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,584 | 🐛 400 | 🌐 Python | 📅 2026-11-18
-* Link: <https://github.com/cocotb/cocotb> ⭐ 2,584 | 🐛 400 | 🌐 Python | 📅 2026-11-18
+* Licence: [Revised BSD License](https://github.com/cocotb/cocotb/blob/master/LICENSE) ⭐ 2,584 | 🐛 395 | 🌐 Python | 📅 2026-11-19
+* Link: <https://github.com/cocotb/cocotb> ⭐ 2,584 | 🐛 395 | 🌐 Python | 📅 2026-11-19
 * Implemented in: Python
 * Write Testbeches In: Python
 
@@ -399,7 +399,7 @@ Listed here are various cocotb plugins for common interfaces or modules:
 | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
 | [AXI Bus](https://github.com/alexforencich/cocotbext-axi) ⭐ 370 \| 🐛 68 \| 🌐 Python \| 📅 2026-08-24 | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 | [Ethernet](https://github.com/alexforencich/cocotbext-eth) ⭐ 84 \| 🐛 8 \| 🌐 Python \| 📅 2026-08-28  | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
-| [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 216 \| 🐛 18 \| 🌐 Python \| 📅 2026-08-25   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
+| [PCIe](https://github.com/alexforencich/cocotbext-pcie) ⭐ 218 \| 🐛 18 \| 🌐 Python \| 📅 2026-08-25   | [Alex Forencich](http://www.alexforencich.com/wiki/en/start) | MIT     |
 
 ### fvutils/pyvsc
 
@@ -416,8 +416,8 @@ Listed here are various cocotb plugins for common interfaces or modules:
 A re-usable formal verification framework for RISC-V CPU designs.
 Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
-* License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING) ⭐ 637 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
-* Link: <https://github.com/SymbioticEDA/riscv-formal> ⭐ 637 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
+* License: [ISC](https://github.com/SymbioticEDA/riscv-formal/blob/master/COPYING) ⭐ 634 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
+* Link: <https://github.com/SymbioticEDA/riscv-formal> ⭐ 634 | 🐛 24 | 🌐 Verilog | 📅 2022-04-06
 * Written In: Verilog
 
 ### UVVM
@@ -426,9 +426,9 @@ Uses the [Yosys/SymbiYosys](#symbiyosys) tools.
 
 There is also an accompanying library of user contributed VIPs: [UVVM\_Community\_VIPs](https://github.com/UVVM/UVVM_Community_VIPs) ⭐ 10 | 🐛 0 | 🌐 VHDL | 📅 2020-01-07.
 
-* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 473 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
-* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 473 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
-* Link: <https://github.com/UVVM/UVVM> ⭐ 473 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
+* License: [MIT](https://github.com/UVVM/UVVM/blob/master/LICENSE) ⭐ 472 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
+* Supports: [a bunch of stuff](https://github.com/UVVM/UVVM#main-features) ⭐ 472 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
+* Link: <https://github.com/UVVM/UVVM> ⭐ 472 | 🐛 7 | 🌐 VHDL | 📅 2026-11-10
 * Written In: VHDL
 * Write Testbenches In: VHDL
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 851 | 🐛 282 | 🌐 VHDL | 📅 2026-11-16 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 851 | 🐛 282 | 🌐 VHDL | 📅 2026-11-19 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -497,10 +497,10 @@ Academic project, looks unmaintained since 2014.
 
 ### ROHD Verification Framework
 
-*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 49 | 🐛 5 | 🌐 Dart | 📅 2026-11-07 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 498 | 🐛 64 | 🌐 Dart | 📅 2026-11-17. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
+*"The [ROHD Verification Framework (ROHD-VF)](https://github.com/intel/rohd-vf) ⭐ 49 | 🐛 5 | 🌐 Dart | 📅 2026-11-07 is a verification framework built upon the [Rapid Open Hardware Development (ROHD) framework](https://github.com/intel/rohd) ⭐ 498 | 🐛 65 | 🌐 Dart | 📅 2026-11-19. It enables testbench organization in a way similar to UVM. A key motivation behind it is that hardware testbenches are really just software, and verification engineers should be empowered to write them as great software. The ROHD Verification Framework enables development of a testbench in a modern programming language, taking advantage of recent innovations in the software industry. With ROHD and ROHD-VF, your testbench and hardware execute natively in Dart in a single fully-debuggable process. "*
 
-* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 64 | 🌐 Dart | 📅 2026-11-17
-* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 64 | 🌐 Dart | 📅 2026-11-17 including a fast event-based simulator
+* Write Testbenches In: Dart with [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 65 | 🌐 Dart | 📅 2026-11-19
+* Supports: Organizing testbenches in a way similar to UVM; natively executing, debugging, and simulating hardware and the testbench in Dart; all features of [ROHD](https://github.com/intel/rohd) ⭐ 498 | 🐛 65 | 🌐 Dart | 📅 2026-11-19 including a fast event-based simulator
 * License: [BSD-3-Clause](https://github.com/intel/rohd-vf/blob/main/LICENSE) ⭐ 49 | 🐛 5 | 🌐 Dart | 📅 2026-11-07
 * Link: <https://github.com/intel/rohd-vf> ⭐ 49 | 🐛 5 | 🌐 Dart | 📅 2026-11-07
 * Written in: Dart
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,760 | 🐛 70 | 🌐 SystemVerilog | 📅 2026-11-18
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,761 | 🐛 70 | 🌐 SystemVerilog | 📅 2026-11-18
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -566,7 +566,7 @@ Bus function model for AMBA APB protocol
 
 ### Antmicro USB Test Suite
 
-"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,584 | 🐛 400 | 🌐 Python | 📅 2026-11-18 based
+"*This is a [Cocotb](https://github.com/cocotb/cocotb) ⭐ 2,584 | 🐛 395 | 🌐 Python | 📅 2026-11-19 based
 USB 1.1 test suite (to be extended to cover higher versions of
 the standard) for FPGA IP, with testbenches for a variety of open
 source USB cores.*"
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-18._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-19._
