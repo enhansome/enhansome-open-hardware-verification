@@ -139,7 +139,7 @@ Unbounded verification of safety properties,
 Generation of test benches from cover statements,
 Verification of liveness properties"*
 
-SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,913 | 🐛 595 | 🌐 C++ | 📅 2026-11-20 (an open
+SymbiYosys requires [Yosys](https://github.com/YosysHQ/yosys) ⭐ 4,914 | 🐛 596 | 🌐 C++ | 📅 2026-11-20 (an open
 source synthesis tool) and one or more formal reasoning engines (listed
 [here](https://symbiyosys.readthedocs.io/en/latest/quickstart.html#prerequisites)to work.
 
@@ -174,7 +174,7 @@ The excellent Icarus Verilog simulator.
 Slower than Verilator, but it supports full 4-state simulation (i.e. X's and
 Z's).
 
-* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,751 | 🐛 221 | 🌐 Verilog | 📅 2026-11-20
+* Link: <https://github.com/steveicarus/iverilog> ⭐ 3,752 | 🐛 222 | 🌐 Verilog | 📅 2026-11-22
 * Write testbenches in: Verilog, or use [cocotb](#cocotb).
 
 ### LibreCores CI
@@ -251,7 +251,7 @@ a preprocessor, a parser, an elaborator for both design and testbench."*
 They either can be developed as plugins (linked with) or use this front-end
 as an intermediate step of their compilation flows"*.
 
-* Link: <https://github.com/chipsalliance/Surelog> ⭐ 481 | 🐛 47 | 🌐 C++ | 📅 2026-11-21
+* Link: <https://github.com/chipsalliance/Surelog> ⭐ 481 | 🐛 47 | 🌐 C++ | 📅 2026-11-22
 * License: Apache 2.0
 * Written In: C++ with Python bindings.
 
@@ -262,7 +262,7 @@ automatically generate soruce code related to configuration and status
 registers (CSR), e.g. SytemVerilog RTL, UVM RAL model, Wiki documents, from
 human readable register map specifications.*"
 
-* Link: <https://github.com/rggen/rggen> ⭐ 479 | 🐛 22 | 🌐 Ruby | 📅 2026-09-11
+* Link: <https://github.com/rggen/rggen> ⭐ 479 | 🐛 27 | 🌐 Ruby | 📅 2026-09-11
 * License: MIT
 * Written in: Ruby
 
@@ -276,9 +276,9 @@ the absence of bugs. It can read Netlists (ISCAS89 format), Verilog, System
 Verilog and SMV files. Properties can be given in LTL or a fragment of System
 Verilog Assertions.*"
 
-* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 120 | 🐛 143 | 🌐 C++ | 📅 2026-11-21
+* Licence: <https://github.com/diffblue/hw-cbmc/blob/main/LICENSE> ⭐ 120 | 🐛 155 | 🌐 C++ | 📅 2026-11-22
 * Link: <http://www.cprover.org/ebmc/>
-  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 120 | 🐛 143 | 🌐 C++ | 📅 2026-11-21
+  * Source: <https://github.com/diffblue/hw-cbmc> ⭐ 120 | 🐛 155 | 🌐 C++ | 📅 2026-11-22
 * Written in: C++.
 
 **CBMC:**
@@ -289,9 +289,9 @@ Verilog Assertions.*"
 such as Verilog. The verification is performed by unwinding the loops in the
 program and passing the resulting equation to a decision procedure.*"
 
-* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,177 | 🐛 1,079 | 🌐 C++ | 📅 2026-11-20
+* Licence: <https://github.com/diffblue/cbmc/blob/develop/LICENSE> ⭐ 1,178 | 🐛 1,081 | 🌐 C++ | 📅 2026-11-20
 * Link: <http://www.cprover.org/cbmc/>
-  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,177 | 🐛 1,079 | 🌐 C++ | 📅 2026-11-20
+  * Source: <https://github.com/diffblue/cbmc> ⭐ 1,178 | 🐛 1,081 | 🌐 C++ | 📅 2026-11-20
 * Written in: C++.
 
 ### FuseSoC
@@ -305,15 +305,15 @@ My Opinion: If you need a tool to manage you HDL or testbench dependencies,
 package your IP for easy sharing, or generally just make your hardware design
 and verification life easier, FuseSoC is a great place to start.
 
-* Link: <https://github.com/olofk/fusesoc> ⭐ 1,489 | 🐛 137 | 🌐 Python | 📅 2026-11-18
-* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,489 | 🐛 137 | 🌐 Python | 📅 2026-11-18
+* Link: <https://github.com/olofk/fusesoc> ⭐ 1,489 | 🐛 138 | 🌐 Python | 📅 2026-11-18
+* License: [BSD-2-Clause](https://github.com/olofk/fusesoc/blob/master/LICENSE) ⭐ 1,489 | 🐛 138 | 🌐 Python | 📅 2026-11-18
 * Written in: Python
 
 ### fsva
 
 "*fsva (FuseSoc Verification Automation) is a tool that aims to automate
 the verification process of libraries and HDL design projects managed
-with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,489 | 🐛 137 | 🌐 Python | 📅 2026-11-18 build tool/system.*"
+with [FuseSoc](https://github.com/olofk/fusesoc) ⭐ 1,489 | 🐛 138 | 🌐 Python | 📅 2026-11-18 build tool/system.*"
 
 * Link: <https://github.com/m-kru/fsva> ⭐ 23 | 🐛 1 | 🌐 VHDL | 📅 2022-07-21
 * License: MIT
@@ -450,13 +450,13 @@ OSVVM is a VHDL verification framework, verification utility library, verificati
 
 The GitHub organisation includes verification components:
 
-* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-10-21
+* [AXI4 Full - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-11-22
 
-* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-10-21
+* [AXI4 Lite - Manager, Memory, Subordinate](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-11-22
 
-* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-10-21
+* [AXI4 Stream - Transmitter and Receiver](https://github.com/OSVVM/AXI4) ⭐ 160 | 🐛 9 | 🌐 VHDL | 📅 2026-11-22
 
-* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 89 | 🐛 5 | 📅 2026-11-18
+* GitHub: <https://github.com/OSVVM/OsvvmLibraries> ⭐ 89 | 🐛 5 | 📅 2026-11-22
 
 * [UART - Transmitter and Receiver](https://github.com/OSVVM/UART) ⭐ 16 | 🐛 2 | 🌐 VHDL | 📅 2026-10-04
 
@@ -478,7 +478,7 @@ The GitHub organisation includes verification components:
 
 Based partially on [OSVVM](#osvvm)
 
-* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 851 | 🐛 282 | 🌐 VHDL | 📅 2026-11-19 baring OSVVM components.
+* License: [Mozilla Public License, v. 2.0.](https://github.com/VUnit/vunit/blob/master/LICENSE.txt) ⭐ 851 | 🐛 282 | 🌐 VHDL | 📅 2026-11-22 baring OSVVM components.
 * Written In: VHDL/Python
 * Write Testbenches In: VHDL/System Verilog
 * Link: <https://vunit.github.io/index.html>
@@ -552,7 +552,7 @@ them.  Provides test classes (drivers and monitors) to write custom testbenches.
 Provides protocol-compliant multiplexers and demultiplexers to simplify the
 implementation and verification of custom AXI modules.
 
-* Link: <https://github.com/pulp-platform/axi> ⭐ 1,761 | 🐛 71 | 🌐 SystemVerilog | 📅 2026-11-18
+* Link: <https://github.com/pulp-platform/axi> ⭐ 1,763 | 🐛 71 | 🌐 SystemVerilog | 📅 2026-11-18
 * Written in: SystemVerilog
 * License: Solderpad Hardware License v0.51
 
@@ -688,4 +688,4 @@ can include:
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-21._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-22._
